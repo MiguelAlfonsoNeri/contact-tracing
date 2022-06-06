@@ -35,9 +35,9 @@
             this.Pgenderlbl = new System.Windows.Forms.Label();
             this.Pendlbl = new System.Windows.Forms.Label();
             this.Pstartlbl = new System.Windows.Forms.Label();
-            this.Cnamelbl = new System.Windows.Forms.Label();
-            this.Cagelbl = new System.Windows.Forms.Label();
-            this.Caddrslbl = new System.Windows.Forms.Label();
+            this.n1lbl = new System.Windows.Forms.Label();
+            this.d1lbl = new System.Windows.Forms.Label();
+            this.a1lbl = new System.Windows.Forms.Label();
             this.Pnametxbx = new System.Windows.Forms.TextBox();
             this.Pagetxbx = new System.Windows.Forms.TextBox();
             this.Pbdaytxbx = new System.Windows.Forms.TextBox();
@@ -45,9 +45,9 @@
             this.Paddrstxbx = new System.Windows.Forms.TextBox();
             this.Pendtxbx = new System.Windows.Forms.TextBox();
             this.Pstarttxbx = new System.Windows.Forms.TextBox();
-            this.Cnametxbx = new System.Windows.Forms.TextBox();
-            this.Cagetxbx = new System.Windows.Forms.TextBox();
-            this.Caddrstxbx = new System.Windows.Forms.TextBox();
+            this.n1txbx = new System.Windows.Forms.TextBox();
+            this.d1txbx = new System.Windows.Forms.TextBox();
+            this.a1txbx = new System.Windows.Forms.TextBox();
             this.BtnTitle = new System.Windows.Forms.Button();
             this.Paddrslbl = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -60,16 +60,48 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.a2txbx = new System.Windows.Forms.TextBox();
+            this.d2txbx = new System.Windows.Forms.TextBox();
+            this.n2txbx = new System.Windows.Forms.TextBox();
+            this.a2lbl = new System.Windows.Forms.Label();
+            this.d2lbl = new System.Windows.Forms.Label();
+            this.n2lbl = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.a3txbx = new System.Windows.Forms.TextBox();
+            this.d3txbx = new System.Windows.Forms.TextBox();
+            this.n3txbx = new System.Windows.Forms.TextBox();
+            this.a3lbl = new System.Windows.Forms.Label();
+            this.d3lbl = new System.Windows.Forms.Label();
+            this.n3lbl = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.a4txbx = new System.Windows.Forms.TextBox();
+            this.d4txbx = new System.Windows.Forms.TextBox();
+            this.n4txbx = new System.Windows.Forms.TextBox();
+            this.a4lbl = new System.Windows.Forms.Label();
+            this.d4lbll = new System.Windows.Forms.Label();
+            this.n4lbl = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.a5txbx = new System.Windows.Forms.TextBox();
+            this.d5txbx = new System.Windows.Forms.TextBox();
+            this.n5txbx = new System.Windows.Forms.TextBox();
+            this.a5lbl = new System.Windows.Forms.Label();
+            this.d5lbl = new System.Windows.Forms.Label();
+            this.n5lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bnSub
             // 
             this.bnSub.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bnSub.Location = new System.Drawing.Point(431, 795);
+            this.bnSub.Location = new System.Drawing.Point(448, 699);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
-            this.bnSub.Size = new System.Drawing.Size(228, 34);
+            this.bnSub.Size = new System.Drawing.Size(228, 42);
             this.bnSub.TabIndex = 0;
             this.bnSub.Text = "Submit ";
             this.bnSub.UseVisualStyleBackColor = false;
@@ -143,38 +175,38 @@
             this.Pstartlbl.TabIndex = 8;
             this.Pstartlbl.Text = "Covid-19 positive individual\'s start date:";
             // 
-            // Cnamelbl
+            // n1lbl
             // 
-            this.Cnamelbl.AutoSize = true;
-            this.Cnamelbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Cnamelbl.Location = new System.Drawing.Point(32, 358);
-            this.Cnamelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Cnamelbl.Name = "Cnamelbl";
-            this.Cnamelbl.Size = new System.Drawing.Size(65, 25);
-            this.Cnamelbl.TabIndex = 11;
-            this.Cnamelbl.Text = "Name:";
+            this.n1lbl.AutoSize = true;
+            this.n1lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.n1lbl.Location = new System.Drawing.Point(32, 358);
+            this.n1lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.n1lbl.Name = "n1lbl";
+            this.n1lbl.Size = new System.Drawing.Size(65, 25);
+            this.n1lbl.TabIndex = 11;
+            this.n1lbl.Text = "Name:";
             // 
-            // Cagelbl
+            // d1lbl
             // 
-            this.Cagelbl.AutoSize = true;
-            this.Cagelbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Cagelbl.Location = new System.Drawing.Point(334, 361);
-            this.Cagelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Cagelbl.Name = "Cagelbl";
-            this.Cagelbl.Size = new System.Drawing.Size(130, 25);
-            this.Cagelbl.TabIndex = 12;
-            this.Cagelbl.Text = "Date exposed:";
+            this.d1lbl.AutoSize = true;
+            this.d1lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.d1lbl.Location = new System.Drawing.Point(334, 361);
+            this.d1lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.d1lbl.Name = "d1lbl";
+            this.d1lbl.Size = new System.Drawing.Size(130, 25);
+            this.d1lbl.TabIndex = 12;
+            this.d1lbl.Text = "Date exposed:";
             // 
-            // Caddrslbl
+            // a1lbl
             // 
-            this.Caddrslbl.AutoSize = true;
-            this.Caddrslbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Caddrslbl.Location = new System.Drawing.Point(731, 361);
-            this.Caddrslbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Caddrslbl.Name = "Caddrslbl";
-            this.Caddrslbl.Size = new System.Drawing.Size(83, 25);
-            this.Caddrslbl.TabIndex = 15;
-            this.Caddrslbl.Text = "Address:";
+            this.a1lbl.AutoSize = true;
+            this.a1lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.a1lbl.Location = new System.Drawing.Point(731, 361);
+            this.a1lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.a1lbl.Name = "a1lbl";
+            this.a1lbl.Size = new System.Drawing.Size(83, 25);
+            this.a1lbl.TabIndex = 15;
+            this.a1lbl.Text = "Address:";
             // 
             // Pnametxbx
             // 
@@ -233,30 +265,30 @@
             this.Pstarttxbx.Size = new System.Drawing.Size(150, 31);
             this.Pstarttxbx.TabIndex = 25;
             // 
-            // Cnametxbx
+            // n1txbx
             // 
-            this.Cnametxbx.Location = new System.Drawing.Point(101, 355);
-            this.Cnametxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Cnametxbx.Name = "Cnametxbx";
-            this.Cnametxbx.Size = new System.Drawing.Size(150, 31);
-            this.Cnametxbx.TabIndex = 26;
+            this.n1txbx.Location = new System.Drawing.Point(101, 355);
+            this.n1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.n1txbx.Name = "n1txbx";
+            this.n1txbx.Size = new System.Drawing.Size(150, 31);
+            this.n1txbx.TabIndex = 26;
             // 
-            // Cagetxbx
+            // d1txbx
             // 
-            this.Cagetxbx.Location = new System.Drawing.Point(484, 355);
-            this.Cagetxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Cagetxbx.Name = "Cagetxbx";
-            this.Cagetxbx.Size = new System.Drawing.Size(150, 31);
-            this.Cagetxbx.TabIndex = 27;
+            this.d1txbx.Location = new System.Drawing.Point(484, 355);
+            this.d1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.d1txbx.Name = "d1txbx";
+            this.d1txbx.Size = new System.Drawing.Size(150, 31);
+            this.d1txbx.TabIndex = 27;
             // 
-            // Caddrstxbx
+            // a1txbx
             // 
-            this.Caddrstxbx.Location = new System.Drawing.Point(847, 358);
-            this.Caddrstxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Caddrstxbx.Multiline = true;
-            this.Caddrstxbx.Name = "Caddrstxbx";
-            this.Caddrstxbx.Size = new System.Drawing.Size(301, 28);
-            this.Caddrstxbx.TabIndex = 30;
+            this.a1txbx.Location = new System.Drawing.Point(847, 358);
+            this.a1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.a1txbx.Multiline = true;
+            this.a1txbx.Name = "a1txbx";
+            this.a1txbx.Size = new System.Drawing.Size(301, 28);
+            this.a1txbx.TabIndex = 30;
             // 
             // BtnTitle
             // 
@@ -409,12 +441,372 @@
             this.label10.TabIndex = 46;
             this.label10.Text = "(MM/DD/YY eg. June 15, 2022)";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(138, 455);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(54, 12);
+            this.label7.TabIndex = 54;
+            this.label7.Text = "(FN/MI/SR)";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(946, 455);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(86, 12);
+            this.label8.TabIndex = 53;
+            this.label8.Text = "(St/Blk/Brngy/City)";
+            // 
+            // a2txbx
+            // 
+            this.a2txbx.Location = new System.Drawing.Point(847, 424);
+            this.a2txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.a2txbx.Multiline = true;
+            this.a2txbx.Name = "a2txbx";
+            this.a2txbx.Size = new System.Drawing.Size(301, 28);
+            this.a2txbx.TabIndex = 52;
+            // 
+            // d2txbx
+            // 
+            this.d2txbx.Location = new System.Drawing.Point(484, 421);
+            this.d2txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.d2txbx.Name = "d2txbx";
+            this.d2txbx.Size = new System.Drawing.Size(150, 31);
+            this.d2txbx.TabIndex = 51;
+            // 
+            // n2txbx
+            // 
+            this.n2txbx.Location = new System.Drawing.Point(101, 421);
+            this.n2txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.n2txbx.Name = "n2txbx";
+            this.n2txbx.Size = new System.Drawing.Size(150, 31);
+            this.n2txbx.TabIndex = 50;
+            // 
+            // a2lbl
+            // 
+            this.a2lbl.AutoSize = true;
+            this.a2lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.a2lbl.Location = new System.Drawing.Point(731, 427);
+            this.a2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.a2lbl.Name = "a2lbl";
+            this.a2lbl.Size = new System.Drawing.Size(83, 25);
+            this.a2lbl.TabIndex = 49;
+            this.a2lbl.Text = "Address:";
+            // 
+            // d2lbl
+            // 
+            this.d2lbl.AutoSize = true;
+            this.d2lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.d2lbl.Location = new System.Drawing.Point(334, 427);
+            this.d2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.d2lbl.Name = "d2lbl";
+            this.d2lbl.Size = new System.Drawing.Size(130, 25);
+            this.d2lbl.TabIndex = 48;
+            this.d2lbl.Text = "Date exposed:";
+            // 
+            // n2lbl
+            // 
+            this.n2lbl.AutoSize = true;
+            this.n2lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.n2lbl.Location = new System.Drawing.Point(32, 424);
+            this.n2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.n2lbl.Name = "n2lbl";
+            this.n2lbl.Size = new System.Drawing.Size(65, 25);
+            this.n2lbl.TabIndex = 47;
+            this.n2lbl.Text = "Name:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(138, 519);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(54, 12);
+            this.label14.TabIndex = 62;
+            this.label14.Text = "(FN/MI/SR)";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label15.Location = new System.Drawing.Point(946, 519);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(86, 12);
+            this.label15.TabIndex = 61;
+            this.label15.Text = "(St/Blk/Brngy/City)";
+            // 
+            // a3txbx
+            // 
+            this.a3txbx.Location = new System.Drawing.Point(847, 488);
+            this.a3txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.a3txbx.Multiline = true;
+            this.a3txbx.Name = "a3txbx";
+            this.a3txbx.Size = new System.Drawing.Size(301, 28);
+            this.a3txbx.TabIndex = 60;
+            // 
+            // d3txbx
+            // 
+            this.d3txbx.Location = new System.Drawing.Point(484, 485);
+            this.d3txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.d3txbx.Name = "d3txbx";
+            this.d3txbx.Size = new System.Drawing.Size(150, 31);
+            this.d3txbx.TabIndex = 59;
+            // 
+            // n3txbx
+            // 
+            this.n3txbx.Location = new System.Drawing.Point(101, 485);
+            this.n3txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.n3txbx.Name = "n3txbx";
+            this.n3txbx.Size = new System.Drawing.Size(150, 31);
+            this.n3txbx.TabIndex = 58;
+            // 
+            // a3lbl
+            // 
+            this.a3lbl.AutoSize = true;
+            this.a3lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.a3lbl.Location = new System.Drawing.Point(731, 491);
+            this.a3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.a3lbl.Name = "a3lbl";
+            this.a3lbl.Size = new System.Drawing.Size(83, 25);
+            this.a3lbl.TabIndex = 57;
+            this.a3lbl.Text = "Address:";
+            // 
+            // d3lbl
+            // 
+            this.d3lbl.AutoSize = true;
+            this.d3lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.d3lbl.Location = new System.Drawing.Point(334, 491);
+            this.d3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.d3lbl.Name = "d3lbl";
+            this.d3lbl.Size = new System.Drawing.Size(130, 25);
+            this.d3lbl.TabIndex = 56;
+            this.d3lbl.Text = "Date exposed:";
+            // 
+            // n3lbl
+            // 
+            this.n3lbl.AutoSize = true;
+            this.n3lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.n3lbl.Location = new System.Drawing.Point(32, 488);
+            this.n3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.n3lbl.Name = "n3lbl";
+            this.n3lbl.Size = new System.Drawing.Size(65, 25);
+            this.n3lbl.TabIndex = 55;
+            this.n3lbl.Text = "Name:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(138, 587);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(54, 12);
+            this.label19.TabIndex = 70;
+            this.label19.Text = "(FN/MI/SR)";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(946, 587);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(86, 12);
+            this.label20.TabIndex = 69;
+            this.label20.Text = "(St/Blk/Brngy/City)";
+            // 
+            // a4txbx
+            // 
+            this.a4txbx.Location = new System.Drawing.Point(847, 556);
+            this.a4txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.a4txbx.Multiline = true;
+            this.a4txbx.Name = "a4txbx";
+            this.a4txbx.Size = new System.Drawing.Size(301, 28);
+            this.a4txbx.TabIndex = 68;
+            // 
+            // d4txbx
+            // 
+            this.d4txbx.Location = new System.Drawing.Point(484, 553);
+            this.d4txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.d4txbx.Name = "d4txbx";
+            this.d4txbx.Size = new System.Drawing.Size(150, 31);
+            this.d4txbx.TabIndex = 67;
+            // 
+            // n4txbx
+            // 
+            this.n4txbx.Location = new System.Drawing.Point(101, 553);
+            this.n4txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.n4txbx.Name = "n4txbx";
+            this.n4txbx.Size = new System.Drawing.Size(150, 31);
+            this.n4txbx.TabIndex = 66;
+            // 
+            // a4lbl
+            // 
+            this.a4lbl.AutoSize = true;
+            this.a4lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.a4lbl.Location = new System.Drawing.Point(731, 559);
+            this.a4lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.a4lbl.Name = "a4lbl";
+            this.a4lbl.Size = new System.Drawing.Size(83, 25);
+            this.a4lbl.TabIndex = 65;
+            this.a4lbl.Text = "Address:";
+            // 
+            // d4lbll
+            // 
+            this.d4lbll.AutoSize = true;
+            this.d4lbll.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.d4lbll.Location = new System.Drawing.Point(334, 559);
+            this.d4lbll.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.d4lbll.Name = "d4lbll";
+            this.d4lbll.Size = new System.Drawing.Size(130, 25);
+            this.d4lbll.TabIndex = 64;
+            this.d4lbll.Text = "Date exposed:";
+            // 
+            // n4lbl
+            // 
+            this.n4lbl.AutoSize = true;
+            this.n4lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.n4lbl.Location = new System.Drawing.Point(32, 556);
+            this.n4lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.n4lbl.Name = "n4lbl";
+            this.n4lbl.Size = new System.Drawing.Size(65, 25);
+            this.n4lbl.TabIndex = 63;
+            this.n4lbl.Text = "Name:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(138, 656);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(54, 12);
+            this.label24.TabIndex = 78;
+            this.label24.Text = "(FN/MI/SR)";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label25.Location = new System.Drawing.Point(946, 656);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(86, 12);
+            this.label25.TabIndex = 77;
+            this.label25.Text = "(St/Blk/Brngy/City)";
+            // 
+            // a5txbx
+            // 
+            this.a5txbx.Location = new System.Drawing.Point(847, 625);
+            this.a5txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.a5txbx.Multiline = true;
+            this.a5txbx.Name = "a5txbx";
+            this.a5txbx.Size = new System.Drawing.Size(301, 28);
+            this.a5txbx.TabIndex = 76;
+            // 
+            // d5txbx
+            // 
+            this.d5txbx.Location = new System.Drawing.Point(484, 622);
+            this.d5txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.d5txbx.Name = "d5txbx";
+            this.d5txbx.Size = new System.Drawing.Size(150, 31);
+            this.d5txbx.TabIndex = 75;
+            // 
+            // n5txbx
+            // 
+            this.n5txbx.Location = new System.Drawing.Point(101, 622);
+            this.n5txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.n5txbx.Name = "n5txbx";
+            this.n5txbx.Size = new System.Drawing.Size(150, 31);
+            this.n5txbx.TabIndex = 74;
+            // 
+            // a5lbl
+            // 
+            this.a5lbl.AutoSize = true;
+            this.a5lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.a5lbl.Location = new System.Drawing.Point(731, 628);
+            this.a5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.a5lbl.Name = "a5lbl";
+            this.a5lbl.Size = new System.Drawing.Size(83, 25);
+            this.a5lbl.TabIndex = 73;
+            this.a5lbl.Text = "Address:";
+            // 
+            // d5lbl
+            // 
+            this.d5lbl.AutoSize = true;
+            this.d5lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.d5lbl.Location = new System.Drawing.Point(334, 628);
+            this.d5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.d5lbl.Name = "d5lbl";
+            this.d5lbl.Size = new System.Drawing.Size(130, 25);
+            this.d5lbl.TabIndex = 72;
+            this.d5lbl.Text = "Date exposed:";
+            // 
+            // n5lbl
+            // 
+            this.n5lbl.AutoSize = true;
+            this.n5lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.n5lbl.Location = new System.Drawing.Point(32, 625);
+            this.n5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.n5lbl.Name = "n5lbl";
+            this.n5lbl.Size = new System.Drawing.Size(65, 25);
+            this.n5lbl.TabIndex = 71;
+            this.n5lbl.Text = "Name:";
+            // 
             // CovidPatientlbl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1213, 853);
+            this.ClientSize = new System.Drawing.Size(1213, 849);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.a5txbx);
+            this.Controls.Add(this.d5txbx);
+            this.Controls.Add(this.n5txbx);
+            this.Controls.Add(this.a5lbl);
+            this.Controls.Add(this.d5lbl);
+            this.Controls.Add(this.n5lbl);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.a4txbx);
+            this.Controls.Add(this.d4txbx);
+            this.Controls.Add(this.n4txbx);
+            this.Controls.Add(this.a4lbl);
+            this.Controls.Add(this.d4lbll);
+            this.Controls.Add(this.n4lbl);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.a3txbx);
+            this.Controls.Add(this.d3txbx);
+            this.Controls.Add(this.n3txbx);
+            this.Controls.Add(this.a3lbl);
+            this.Controls.Add(this.d3lbl);
+            this.Controls.Add(this.n3lbl);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.a2txbx);
+            this.Controls.Add(this.d2txbx);
+            this.Controls.Add(this.n2txbx);
+            this.Controls.Add(this.a2lbl);
+            this.Controls.Add(this.d2lbl);
+            this.Controls.Add(this.n2lbl);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label6);
@@ -428,18 +820,18 @@
             this.Controls.Add(this.Paddrslbl);
             this.Controls.Add(this.Paddrstxbx);
             this.Controls.Add(this.BtnTitle);
-            this.Controls.Add(this.Caddrstxbx);
-            this.Controls.Add(this.Cagetxbx);
-            this.Controls.Add(this.Cnametxbx);
+            this.Controls.Add(this.a1txbx);
+            this.Controls.Add(this.d1txbx);
+            this.Controls.Add(this.n1txbx);
             this.Controls.Add(this.Pstarttxbx);
             this.Controls.Add(this.Pendtxbx);
             this.Controls.Add(this.Pgendertxbx);
             this.Controls.Add(this.Pbdaytxbx);
             this.Controls.Add(this.Pagetxbx);
             this.Controls.Add(this.Pnametxbx);
-            this.Controls.Add(this.Caddrslbl);
-            this.Controls.Add(this.Cagelbl);
-            this.Controls.Add(this.Cnamelbl);
+            this.Controls.Add(this.a1lbl);
+            this.Controls.Add(this.d1lbl);
+            this.Controls.Add(this.n1lbl);
             this.Controls.Add(this.Pstartlbl);
             this.Controls.Add(this.Pendlbl);
             this.Controls.Add(this.Pgenderlbl);
@@ -464,9 +856,9 @@
         private Label Pgenderlbl;
         private Label Pendlbl;
         private Label Pstartlbl;
-        private Label Cnamelbl;
-        private Label Cagelbl;
-        private Label Caddrslbl;
+        private Label n1lbl;
+        private Label d1lbl;
+        private Label a1lbl;
         private TextBox Pnametxbx;
         private TextBox Pagetxbx;
         private TextBox Pbdaytxbx;
@@ -474,9 +866,9 @@
         private TextBox Paddrstxbx;
         private TextBox Pendtxbx;
         private TextBox Pstarttxbx;
-        private TextBox Cnametxbx;
-        private TextBox Cagetxbx;
-        private TextBox Caddrstxbx;
+        private TextBox n1txbx;
+        private TextBox d1txbx;
+        private TextBox a1txbx;
         private Button BtnTitle;
         private Label Paddrslbl;
         private Button button1;
@@ -489,5 +881,37 @@
         private Label label6;
         private Label label9;
         private Label label10;
+        private Label label7;
+        private Label label8;
+        private TextBox a2txbx;
+        private TextBox d2txbx;
+        private TextBox n2txbx;
+        private Label a2lbl;
+        private Label d2lbl;
+        private Label n2lbl;
+        private Label label14;
+        private Label label15;
+        private TextBox a3txbx;
+        private TextBox d3txbx;
+        private TextBox n3txbx;
+        private Label a3lbl;
+        private Label d3lbl;
+        private Label n3lbl;
+        private Label label19;
+        private Label label20;
+        private TextBox a4txbx;
+        private TextBox d4txbx;
+        private TextBox n4txbx;
+        private Label a4lbl;
+        private Label d4lbll;
+        private Label n4lbl;
+        private Label label24;
+        private Label label25;
+        private TextBox a5txbx;
+        private TextBox d5txbx;
+        private TextBox n5txbx;
+        private Label a5lbl;
+        private Label d5lbl;
+        private Label n5lbl;
     }
 }

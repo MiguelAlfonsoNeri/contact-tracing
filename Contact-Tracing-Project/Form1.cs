@@ -29,11 +29,11 @@ namespace Contact_Tracing_Project
             Pstarttxbx.Text = "";
             Pendtxbx.Text = "";
 
-            Cnametxbx.Text = "";
-            Cagetxbx.Text = "";
+            n1txbx.Text = "";
+            d1txbx.Text = "";
             Cbdaytxbx.Text = "";
             Cgendertxbx.Text = "";
-            Caddrstxbx.Text = "";
+            a1txbx.Text = "";
             Cstarttxbx.Text = "";
             Cendtxbx.Text = "";
             MessageBox.Show("Your response has been recorded, thanks for filling out!");
