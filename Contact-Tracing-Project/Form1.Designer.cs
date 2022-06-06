@@ -98,7 +98,7 @@
             // 
             this.bnSub.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bnSub.Location = new System.Drawing.Point(448, 699);
+            this.bnSub.Location = new System.Drawing.Point(461, 718);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 42);
@@ -124,7 +124,7 @@
             this.PageLbl.AutoSize = true;
             this.PageLbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.PageLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.PageLbl.Location = new System.Drawing.Point(50, 185);
+            this.PageLbl.Location = new System.Drawing.Point(48, 206);
             this.PageLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PageLbl.Name = "PageLbl";
             this.PageLbl.Size = new System.Drawing.Size(49, 25);
@@ -135,7 +135,7 @@
             // 
             this.Pbdaylbl.AutoSize = true;
             this.Pbdaylbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Pbdaylbl.Location = new System.Drawing.Point(284, 118);
+            this.Pbdaylbl.Location = new System.Drawing.Point(279, 118);
             this.Pbdaylbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Pbdaylbl.Name = "Pbdaylbl";
             this.Pbdaylbl.Size = new System.Drawing.Size(86, 25);
@@ -146,7 +146,7 @@
             // 
             this.Pgenderlbl.AutoSize = true;
             this.Pgenderlbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Pgenderlbl.Location = new System.Drawing.Point(284, 182);
+            this.Pgenderlbl.Location = new System.Drawing.Point(279, 206);
             this.Pgenderlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Pgenderlbl.Name = "Pgenderlbl";
             this.Pgenderlbl.Size = new System.Drawing.Size(79, 25);
@@ -218,7 +218,7 @@
             // 
             // Pagetxbx
             // 
-            this.Pagetxbx.Location = new System.Drawing.Point(101, 182);
+            this.Pagetxbx.Location = new System.Drawing.Point(101, 206);
             this.Pagetxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pagetxbx.Name = "Pagetxbx";
             this.Pagetxbx.Size = new System.Drawing.Size(150, 31);
@@ -226,7 +226,7 @@
             // 
             // Pbdaytxbx
             // 
-            this.Pbdaytxbx.Location = new System.Drawing.Point(362, 114);
+            this.Pbdaytxbx.Location = new System.Drawing.Point(362, 115);
             this.Pbdaytxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pbdaytxbx.Name = "Pbdaytxbx";
             this.Pbdaytxbx.Size = new System.Drawing.Size(150, 31);
@@ -234,7 +234,7 @@
             // 
             // Pgendertxbx
             // 
-            this.Pgendertxbx.Location = new System.Drawing.Point(362, 182);
+            this.Pgendertxbx.Location = new System.Drawing.Point(362, 206);
             this.Pgendertxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pgendertxbx.Name = "Pgendertxbx";
             this.Pgendertxbx.Size = new System.Drawing.Size(150, 31);
@@ -242,7 +242,7 @@
             // 
             // Paddrstxbx
             // 
-            this.Paddrstxbx.Location = new System.Drawing.Point(610, 112);
+            this.Paddrstxbx.Location = new System.Drawing.Point(624, 114);
             this.Paddrstxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Paddrstxbx.Multiline = true;
             this.Paddrstxbx.Name = "Paddrstxbx";
@@ -267,7 +267,7 @@
             // 
             // n1txbx
             // 
-            this.n1txbx.Location = new System.Drawing.Point(101, 355);
+            this.n1txbx.Location = new System.Drawing.Point(101, 358);
             this.n1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n1txbx.Name = "n1txbx";
             this.n1txbx.Size = new System.Drawing.Size(150, 31);
@@ -275,7 +275,7 @@
             // 
             // d1txbx
             // 
-            this.d1txbx.Location = new System.Drawing.Point(484, 355);
+            this.d1txbx.Location = new System.Drawing.Point(484, 361);
             this.d1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.d1txbx.Name = "d1txbx";
             this.d1txbx.Size = new System.Drawing.Size(150, 31);
@@ -308,7 +308,7 @@
             // 
             this.Paddrslbl.AutoSize = true;
             this.Paddrslbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Paddrslbl.Location = new System.Drawing.Point(522, 118);
+            this.Paddrslbl.Location = new System.Drawing.Point(537, 117);
             this.Paddrslbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Paddrslbl.Name = "Paddrslbl";
             this.Paddrslbl.Size = new System.Drawing.Size(83, 25);
@@ -321,7 +321,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(2, 315);
+            this.button1.Location = new System.Drawing.Point(2, 303);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(1212, 34);
@@ -374,7 +374,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(397, 214);
+            this.label3.Location = new System.Drawing.Point(397, 237);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 12);
@@ -386,7 +386,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(661, 214);
+            this.label4.Location = new System.Drawing.Point(686, 216);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 12);
@@ -484,7 +484,7 @@
             // 
             // n2txbx
             // 
-            this.n2txbx.Location = new System.Drawing.Point(101, 421);
+            this.n2txbx.Location = new System.Drawing.Point(101, 418);
             this.n2txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n2txbx.Name = "n2txbx";
             this.n2txbx.Size = new System.Drawing.Size(150, 31);
@@ -516,7 +516,7 @@
             // 
             this.n2lbl.AutoSize = true;
             this.n2lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.n2lbl.Location = new System.Drawing.Point(32, 424);
+            this.n2lbl.Location = new System.Drawing.Point(32, 421);
             this.n2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2lbl.Name = "n2lbl";
             this.n2lbl.Size = new System.Drawing.Size(65, 25);
@@ -566,7 +566,7 @@
             // 
             // n3txbx
             // 
-            this.n3txbx.Location = new System.Drawing.Point(101, 485);
+            this.n3txbx.Location = new System.Drawing.Point(101, 482);
             this.n3txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n3txbx.Name = "n3txbx";
             this.n3txbx.Size = new System.Drawing.Size(150, 31);
@@ -598,7 +598,7 @@
             // 
             this.n3lbl.AutoSize = true;
             this.n3lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.n3lbl.Location = new System.Drawing.Point(32, 488);
+            this.n3lbl.Location = new System.Drawing.Point(32, 491);
             this.n3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n3lbl.Name = "n3lbl";
             this.n3lbl.Size = new System.Drawing.Size(65, 25);
@@ -762,7 +762,7 @@
             // 
             this.n5lbl.AutoSize = true;
             this.n5lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.n5lbl.Location = new System.Drawing.Point(32, 625);
+            this.n5lbl.Location = new System.Drawing.Point(32, 628);
             this.n5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n5lbl.Name = "n5lbl";
             this.n5lbl.Size = new System.Drawing.Size(65, 25);
@@ -774,7 +774,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1213, 849);
+            this.ClientSize = new System.Drawing.Size(1214, 784);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.a5txbx);
