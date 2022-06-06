@@ -10,6 +10,7 @@ namespace Contact_Tracing_Project
         private void bnSub_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\Migo\OneDrive\Documents\Contact tracing\test.txt", true);
+            file.WriteLine("Personal Information");
             file.WriteLine("Name:" + Pnametxbx.Text);
             file.WriteLine("Age:" + Pagetxbx.Text);
             file.WriteLine("Birthday:" + Pbdaytxbx.Text);
@@ -17,7 +18,25 @@ namespace Contact_Tracing_Project
             file.WriteLine("Address:" + Paddrstxbx.Text);
             file.WriteLine("Start of contact:" + Pstarttxbx.Text);
             file.WriteLine("End of contact:" + Pendtxbx.Text);
+            file.WriteLine("");
             file.Close();
+
+            Pnametxbx.Text = "";
+            Pagetxbx.Text = "";
+            Pbdaytxbx.Text = "";
+            Pgendertxbx.Text = "";
+            Paddrstxbx.Text = "";
+            Pstarttxbx.Text = "";
+            Pendtxbx.Text = "";
+
+            Cnametxbx.Text = "";
+            Cagetxbx.Text = "";
+            Cbdaytxbx.Text = "";
+            Cgendertxbx.Text = "";
+            Caddrstxbx.Text = "";
+            Cstarttxbx.Text = "";
+            Cendtxbx.Text = "";
+            MessageBox.Show("Your response has been recorded, thanks for filling out!");
         }
     }
 }

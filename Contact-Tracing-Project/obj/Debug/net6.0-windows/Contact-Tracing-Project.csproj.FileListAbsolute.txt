@@ -1,3 +1,8 @@
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.exe
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.deps.json
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.runtimeconfig.json
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.pdb
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.csproj.AssemblyReference.cache
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact_Tracing_Project.CovidPatientlbl.resources
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact_Tracing_Project.Properties.Resources.resources
@@ -6,11 +11,6 @@ C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contac
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.AssemblyInfoInputs.cache
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.AssemblyInfo.cs
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.csproj.CoreCompileInputs.cache
-C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.exe
-C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.deps.json
-C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.runtimeconfig.json
-C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.dll
-C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.pdb
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.dll
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\refint\Contact-Tracing-Project.dll
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.pdb
