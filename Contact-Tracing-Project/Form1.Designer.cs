@@ -29,15 +29,12 @@
         private void InitializeComponent()
         {
             this.bnSub = new System.Windows.Forms.Button();
-            this.Personallbl = new System.Windows.Forms.Label();
             this.PnameLbl = new System.Windows.Forms.Label();
             this.PageLbl = new System.Windows.Forms.Label();
             this.Pbdaylbl = new System.Windows.Forms.Label();
             this.Pgenderlbl = new System.Windows.Forms.Label();
-            this.Paddrslbl = new System.Windows.Forms.Label();
             this.Pendlbl = new System.Windows.Forms.Label();
             this.Pstartlbl = new System.Windows.Forms.Label();
-            this.CovidPlbl = new System.Windows.Forms.Label();
             this.Cnamelbl = new System.Windows.Forms.Label();
             this.Cagelbl = new System.Windows.Forms.Label();
             this.Cbdaylbl = new System.Windows.Forms.Label();
@@ -60,30 +57,28 @@
             this.Cendtxbx = new System.Windows.Forms.TextBox();
             this.Cstarttxbx = new System.Windows.Forms.TextBox();
             this.BtnTitle = new System.Windows.Forms.Button();
+            this.Paddrslbl = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bnSub
             // 
+            this.bnSub.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnSub.Location = new System.Drawing.Point(467, 428);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 34);
             this.bnSub.TabIndex = 0;
             this.bnSub.Text = "Submit ";
-            this.bnSub.UseVisualStyleBackColor = true;
-            // 
-            // Personallbl
-            // 
-            this.Personallbl.AutoSize = true;
-            this.Personallbl.Location = new System.Drawing.Point(22, 69);
-            this.Personallbl.Name = "Personallbl";
-            this.Personallbl.Size = new System.Drawing.Size(181, 25);
-            this.Personallbl.TabIndex = 1;
-            this.Personallbl.Text = "Personal Information:";
+            this.bnSub.UseVisualStyleBackColor = false;
+            this.bnSub.Click += new System.EventHandler(this.bnSub_Click);
             // 
             // PnameLbl
             // 
             this.PnameLbl.AutoSize = true;
+            this.PnameLbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.PnameLbl.Location = new System.Drawing.Point(22, 115);
             this.PnameLbl.Name = "PnameLbl";
             this.PnameLbl.Size = new System.Drawing.Size(63, 25);
@@ -93,7 +88,8 @@
             // PageLbl
             // 
             this.PageLbl.AutoSize = true;
-            this.PageLbl.Location = new System.Drawing.Point(22, 159);
+            this.PageLbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.PageLbl.Location = new System.Drawing.Point(22, 171);
             this.PageLbl.Name = "PageLbl";
             this.PageLbl.Size = new System.Drawing.Size(48, 25);
             this.PageLbl.TabIndex = 3;
@@ -102,7 +98,7 @@
             // Pbdaylbl
             // 
             this.Pbdaylbl.AutoSize = true;
-            this.Pbdaylbl.Location = new System.Drawing.Point(276, 127);
+            this.Pbdaylbl.Location = new System.Drawing.Point(276, 118);
             this.Pbdaylbl.Name = "Pbdaylbl";
             this.Pbdaylbl.Size = new System.Drawing.Size(81, 25);
             this.Pbdaylbl.TabIndex = 4;
@@ -111,25 +107,16 @@
             // Pgenderlbl
             // 
             this.Pgenderlbl.AutoSize = true;
-            this.Pgenderlbl.Location = new System.Drawing.Point(276, 173);
+            this.Pgenderlbl.Location = new System.Drawing.Point(276, 162);
             this.Pgenderlbl.Name = "Pgenderlbl";
             this.Pgenderlbl.Size = new System.Drawing.Size(73, 25);
             this.Pgenderlbl.TabIndex = 5;
             this.Pgenderlbl.Text = "Gender:";
             // 
-            // Paddrslbl
-            // 
-            this.Paddrslbl.AutoSize = true;
-            this.Paddrslbl.Location = new System.Drawing.Point(526, 121);
-            this.Paddrslbl.Name = "Paddrslbl";
-            this.Paddrslbl.Size = new System.Drawing.Size(81, 25);
-            this.Paddrslbl.TabIndex = 6;
-            this.Paddrslbl.Text = "Address:";
-            // 
             // Pendlbl
             // 
             this.Pendlbl.AutoSize = true;
-            this.Pendlbl.Location = new System.Drawing.Point(847, 182);
+            this.Pendlbl.Location = new System.Drawing.Point(847, 168);
             this.Pendlbl.Name = "Pendlbl";
             this.Pendlbl.Size = new System.Drawing.Size(134, 25);
             this.Pendlbl.TabIndex = 7;
@@ -138,20 +125,11 @@
             // Pstartlbl
             // 
             this.Pstartlbl.AutoSize = true;
-            this.Pstartlbl.Location = new System.Drawing.Point(845, 127);
+            this.Pstartlbl.Location = new System.Drawing.Point(841, 121);
             this.Pstartlbl.Name = "Pstartlbl";
             this.Pstartlbl.Size = new System.Drawing.Size(140, 25);
             this.Pstartlbl.TabIndex = 8;
             this.Pstartlbl.Text = "Start of Contact:";
-            // 
-            // CovidPlbl
-            // 
-            this.CovidPlbl.AutoSize = true;
-            this.CovidPlbl.Location = new System.Drawing.Point(22, 241);
-            this.CovidPlbl.Name = "CovidPlbl";
-            this.CovidPlbl.Size = new System.Drawing.Size(341, 25);
-            this.CovidPlbl.TabIndex = 10;
-            this.CovidPlbl.Text = "Covid-19 Positive individual\'s information";
             // 
             // Cnamelbl
             // 
@@ -192,7 +170,7 @@
             // Caddrslbl
             // 
             this.Caddrslbl.AutoSize = true;
-            this.Caddrslbl.Location = new System.Drawing.Point(523, 296);
+            this.Caddrslbl.Location = new System.Drawing.Point(523, 287);
             this.Caddrslbl.Name = "Caddrslbl";
             this.Caddrslbl.Size = new System.Drawing.Size(81, 25);
             this.Caddrslbl.TabIndex = 15;
@@ -225,28 +203,28 @@
             // 
             // Pagetxbx
             // 
-            this.Pagetxbx.Location = new System.Drawing.Point(101, 159);
+            this.Pagetxbx.Location = new System.Drawing.Point(101, 171);
             this.Pagetxbx.Name = "Pagetxbx";
             this.Pagetxbx.Size = new System.Drawing.Size(150, 31);
             this.Pagetxbx.TabIndex = 20;
             // 
             // Pbdaytxbx
             // 
-            this.Pbdaytxbx.Location = new System.Drawing.Point(352, 124);
+            this.Pbdaytxbx.Location = new System.Drawing.Point(363, 115);
             this.Pbdaytxbx.Name = "Pbdaytxbx";
             this.Pbdaytxbx.Size = new System.Drawing.Size(150, 31);
             this.Pbdaytxbx.TabIndex = 21;
             // 
             // Pgendertxbx
             // 
-            this.Pgendertxbx.Location = new System.Drawing.Point(352, 167);
+            this.Pgendertxbx.Location = new System.Drawing.Point(363, 162);
             this.Pgendertxbx.Name = "Pgendertxbx";
             this.Pgendertxbx.Size = new System.Drawing.Size(150, 31);
             this.Pgendertxbx.TabIndex = 22;
             // 
             // Paddrstxbx
             // 
-            this.Paddrstxbx.Location = new System.Drawing.Point(610, 118);
+            this.Paddrstxbx.Location = new System.Drawing.Point(610, 112);
             this.Paddrstxbx.Multiline = true;
             this.Paddrstxbx.Name = "Paddrstxbx";
             this.Paddrstxbx.Size = new System.Drawing.Size(204, 101);
@@ -254,21 +232,21 @@
             // 
             // Pendtxbx
             // 
-            this.Pendtxbx.Location = new System.Drawing.Point(987, 179);
+            this.Pendtxbx.Location = new System.Drawing.Point(987, 168);
             this.Pendtxbx.Name = "Pendtxbx";
             this.Pendtxbx.Size = new System.Drawing.Size(150, 31);
             this.Pendtxbx.TabIndex = 24;
             // 
             // Pstarttxbx
             // 
-            this.Pstarttxbx.Location = new System.Drawing.Point(987, 127);
+            this.Pstarttxbx.Location = new System.Drawing.Point(987, 121);
             this.Pstarttxbx.Name = "Pstarttxbx";
             this.Pstarttxbx.Size = new System.Drawing.Size(150, 31);
             this.Pstarttxbx.TabIndex = 25;
             // 
             // Cnametxbx
             // 
-            this.Cnametxbx.Location = new System.Drawing.Point(97, 287);
+            this.Cnametxbx.Location = new System.Drawing.Point(101, 287);
             this.Cnametxbx.Name = "Cnametxbx";
             this.Cnametxbx.Size = new System.Drawing.Size(150, 31);
             this.Cnametxbx.TabIndex = 26;
@@ -282,14 +260,14 @@
             // 
             // Cbdaytxbx
             // 
-            this.Cbdaytxbx.Location = new System.Drawing.Point(352, 290);
+            this.Cbdaytxbx.Location = new System.Drawing.Point(363, 287);
             this.Cbdaytxbx.Name = "Cbdaytxbx";
             this.Cbdaytxbx.Size = new System.Drawing.Size(150, 31);
             this.Cbdaytxbx.TabIndex = 28;
             // 
             // Cgendertxbx
             // 
-            this.Cgendertxbx.Location = new System.Drawing.Point(352, 347);
+            this.Cgendertxbx.Location = new System.Drawing.Point(363, 338);
             this.Cgendertxbx.Name = "Cgendertxbx";
             this.Cgendertxbx.Size = new System.Drawing.Size(150, 31);
             this.Cgendertxbx.TabIndex = 29;
@@ -318,19 +296,77 @@
             // 
             // BtnTitle
             // 
+            this.BtnTitle.BackColor = System.Drawing.SystemColors.HotTrack;
             this.BtnTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTitle.Location = new System.Drawing.Point(177, 32);
+            this.BtnTitle.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnTitle.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnTitle.Location = new System.Drawing.Point(-2, 12);
             this.BtnTitle.Name = "BtnTitle";
-            this.BtnTitle.Size = new System.Drawing.Size(798, 34);
+            this.BtnTitle.Size = new System.Drawing.Size(1194, 41);
             this.BtnTitle.TabIndex = 33;
             this.BtnTitle.Text = "Covid-19 Exposure Contact Log Form";
-            this.BtnTitle.UseVisualStyleBackColor = true;
+            this.BtnTitle.UseVisualStyleBackColor = false;
+            // 
+            // Paddrslbl
+            // 
+            this.Paddrslbl.AutoSize = true;
+            this.Paddrslbl.Location = new System.Drawing.Point(523, 118);
+            this.Paddrslbl.Name = "Paddrslbl";
+            this.Paddrslbl.Size = new System.Drawing.Size(81, 25);
+            this.Paddrslbl.TabIndex = 34;
+            this.Paddrslbl.Text = "Address:";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(-2, 231);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(1183, 34);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "Covid-19 Positive Individual\'s Information:";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(-2, 59);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(1183, 34);
+            this.button2.TabIndex = 36;
+            this.button2.Text = "Personal Information:";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(135, 140);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(93, 25);
+            this.button3.TabIndex = 37;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // CovidPatientlbl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1181, 482);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Paddrslbl);
+            this.Controls.Add(this.Paddrstxbx);
             this.Controls.Add(this.BtnTitle);
             this.Controls.Add(this.Cstarttxbx);
             this.Controls.Add(this.Cendtxbx);
@@ -341,7 +377,6 @@
             this.Controls.Add(this.Cnametxbx);
             this.Controls.Add(this.Pstarttxbx);
             this.Controls.Add(this.Pendtxbx);
-            this.Controls.Add(this.Paddrstxbx);
             this.Controls.Add(this.Pgendertxbx);
             this.Controls.Add(this.Pbdaytxbx);
             this.Controls.Add(this.Pagetxbx);
@@ -353,15 +388,12 @@
             this.Controls.Add(this.Cbdaylbl);
             this.Controls.Add(this.Cagelbl);
             this.Controls.Add(this.Cnamelbl);
-            this.Controls.Add(this.CovidPlbl);
             this.Controls.Add(this.Pstartlbl);
             this.Controls.Add(this.Pendlbl);
-            this.Controls.Add(this.Paddrslbl);
             this.Controls.Add(this.Pgenderlbl);
             this.Controls.Add(this.Pbdaylbl);
             this.Controls.Add(this.PageLbl);
             this.Controls.Add(this.PnameLbl);
-            this.Controls.Add(this.Personallbl);
             this.Controls.Add(this.bnSub);
             this.Name = "CovidPatientlbl";
             this.Text = "Contact-Tracing-Form";
@@ -373,15 +405,12 @@
         #endregion
 
         private Button bnSub;
-        private Label Personallbl;
         private Label PnameLbl;
         private Label PageLbl;
         private Label Pbdaylbl;
         private Label Pgenderlbl;
-        private Label Paddrslbl;
         private Label Pendlbl;
         private Label Pstartlbl;
-        private Label CovidPlbl;
         private Label Cnamelbl;
         private Label Cagelbl;
         private Label Cbdaylbl;
@@ -404,5 +433,9 @@
         private TextBox Cendtxbx;
         private TextBox Cstarttxbx;
         private Button BtnTitle;
+        private Label Paddrslbl;
+        private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }
