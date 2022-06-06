@@ -203,7 +203,7 @@
             // 
             // Pagetxbx
             // 
-            this.Pagetxbx.Location = new System.Drawing.Point(101, 171);
+            this.Pagetxbx.Location = new System.Drawing.Point(101, 182);
             this.Pagetxbx.Name = "Pagetxbx";
             this.Pagetxbx.Size = new System.Drawing.Size(150, 31);
             this.Pagetxbx.TabIndex = 20;
@@ -354,7 +354,6 @@
             this.button3.TabIndex = 37;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
-          
             // 
             // CovidPatientlbl
             // 
