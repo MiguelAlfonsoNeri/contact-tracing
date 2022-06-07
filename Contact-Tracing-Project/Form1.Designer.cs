@@ -92,12 +92,31 @@
             this.a5lbl = new System.Windows.Forms.Label();
             this.d5lbl = new System.Windows.Forms.Label();
             this.n5lbl = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.C1txbx = new System.Windows.Forms.TextBox();
+            this.C1lbl = new System.Windows.Forms.Label();
+            this.C2txbx = new System.Windows.Forms.TextBox();
+            this.C2lbl = new System.Windows.Forms.Label();
+            this.C3txbx = new System.Windows.Forms.TextBox();
+            this.C3lbl = new System.Windows.Forms.Label();
+            this.C4txbx = new System.Windows.Forms.TextBox();
+            this.C4lbl = new System.Windows.Forms.Label();
+            this.C5txbx = new System.Windows.Forms.TextBox();
+            this.C5lbl = new System.Windows.Forms.Label();
+            this.C6txbx = new System.Windows.Forms.TextBox();
+            this.C6lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bnSub
             // 
-            this.bnSub.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.bnSub.BackColor = System.Drawing.SystemColors.HotTrack;
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bnSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bnSub.ForeColor = System.Drawing.Color.White;
             this.bnSub.Location = new System.Drawing.Point(461, 718);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
@@ -157,7 +176,7 @@
             // 
             this.Pendlbl.AutoSize = true;
             this.Pendlbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Pendlbl.Location = new System.Drawing.Point(841, 209);
+            this.Pendlbl.Location = new System.Drawing.Point(1215, 209);
             this.Pendlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Pendlbl.Name = "Pendlbl";
             this.Pendlbl.Size = new System.Drawing.Size(336, 25);
@@ -168,7 +187,7 @@
             // 
             this.Pstartlbl.AutoSize = true;
             this.Pstartlbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Pstartlbl.Location = new System.Drawing.Point(841, 112);
+            this.Pstartlbl.Location = new System.Drawing.Point(1215, 114);
             this.Pstartlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Pstartlbl.Name = "Pstartlbl";
             this.Pstartlbl.Size = new System.Drawing.Size(343, 25);
@@ -190,7 +209,7 @@
             // 
             this.d1lbl.AutoSize = true;
             this.d1lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.d1lbl.Location = new System.Drawing.Point(334, 361);
+            this.d1lbl.Location = new System.Drawing.Point(373, 364);
             this.d1lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.d1lbl.Name = "d1lbl";
             this.d1lbl.Size = new System.Drawing.Size(130, 25);
@@ -201,7 +220,7 @@
             // 
             this.a1lbl.AutoSize = true;
             this.a1lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.a1lbl.Location = new System.Drawing.Point(731, 361);
+            this.a1lbl.Location = new System.Drawing.Point(760, 361);
             this.a1lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.a1lbl.Name = "a1lbl";
             this.a1lbl.Size = new System.Drawing.Size(83, 25);
@@ -251,7 +270,7 @@
             // 
             // Pendtxbx
             // 
-            this.Pendtxbx.Location = new System.Drawing.Point(847, 237);
+            this.Pendtxbx.Location = new System.Drawing.Point(1215, 237);
             this.Pendtxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pendtxbx.Name = "Pendtxbx";
             this.Pendtxbx.Size = new System.Drawing.Size(150, 31);
@@ -259,7 +278,7 @@
             // 
             // Pstarttxbx
             // 
-            this.Pstarttxbx.Location = new System.Drawing.Point(847, 140);
+            this.Pstarttxbx.Location = new System.Drawing.Point(1215, 142);
             this.Pstarttxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pstarttxbx.Name = "Pstarttxbx";
             this.Pstarttxbx.Size = new System.Drawing.Size(150, 31);
@@ -270,12 +289,12 @@
             this.n1txbx.Location = new System.Drawing.Point(101, 358);
             this.n1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n1txbx.Name = "n1txbx";
-            this.n1txbx.Size = new System.Drawing.Size(150, 31);
+            this.n1txbx.Size = new System.Drawing.Size(194, 31);
             this.n1txbx.TabIndex = 26;
             // 
             // d1txbx
             // 
-            this.d1txbx.Location = new System.Drawing.Point(484, 361);
+            this.d1txbx.Location = new System.Drawing.Point(507, 361);
             this.d1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.d1txbx.Name = "d1txbx";
             this.d1txbx.Size = new System.Drawing.Size(150, 31);
@@ -299,7 +318,7 @@
             this.BtnTitle.Location = new System.Drawing.Point(-2, 12);
             this.BtnTitle.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BtnTitle.Name = "BtnTitle";
-            this.BtnTitle.Size = new System.Drawing.Size(1216, 41);
+            this.BtnTitle.Size = new System.Drawing.Size(1577, 41);
             this.BtnTitle.TabIndex = 33;
             this.BtnTitle.Text = "Covid-19 Exposure Contact Log Form";
             this.BtnTitle.UseVisualStyleBackColor = false;
@@ -324,7 +343,7 @@
             this.button1.Location = new System.Drawing.Point(2, 303);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1212, 34);
+            this.button1.Size = new System.Drawing.Size(1584, 34);
             this.button1.TabIndex = 35;
             this.button1.Text = "List/s of people with contact exposure:";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -339,7 +358,7 @@
             this.button2.Location = new System.Drawing.Point(-2, 59);
             this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(1216, 34);
+            this.button2.Size = new System.Drawing.Size(1577, 34);
             this.button2.TabIndex = 36;
             this.button2.Text = "Personal Information:";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -410,7 +429,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(138, 389);
+            this.label6.Location = new System.Drawing.Point(167, 389);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 12);
@@ -422,7 +441,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(856, 174);
+            this.label9.Location = new System.Drawing.Point(1215, 176);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(141, 12);
@@ -434,7 +453,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(856, 271);
+            this.label10.Location = new System.Drawing.Point(1215, 271);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(141, 12);
@@ -446,7 +465,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(138, 455);
+            this.label7.Location = new System.Drawing.Point(167, 455);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(54, 12);
@@ -476,7 +495,7 @@
             // 
             // d2txbx
             // 
-            this.d2txbx.Location = new System.Drawing.Point(484, 421);
+            this.d2txbx.Location = new System.Drawing.Point(507, 418);
             this.d2txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.d2txbx.Name = "d2txbx";
             this.d2txbx.Size = new System.Drawing.Size(150, 31);
@@ -487,14 +506,14 @@
             this.n2txbx.Location = new System.Drawing.Point(101, 418);
             this.n2txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n2txbx.Name = "n2txbx";
-            this.n2txbx.Size = new System.Drawing.Size(150, 31);
+            this.n2txbx.Size = new System.Drawing.Size(194, 31);
             this.n2txbx.TabIndex = 50;
             // 
             // a2lbl
             // 
             this.a2lbl.AutoSize = true;
             this.a2lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.a2lbl.Location = new System.Drawing.Point(731, 427);
+            this.a2lbl.Location = new System.Drawing.Point(760, 421);
             this.a2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.a2lbl.Name = "a2lbl";
             this.a2lbl.Size = new System.Drawing.Size(83, 25);
@@ -505,7 +524,7 @@
             // 
             this.d2lbl.AutoSize = true;
             this.d2lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.d2lbl.Location = new System.Drawing.Point(334, 427);
+            this.d2lbl.Location = new System.Drawing.Point(373, 421);
             this.d2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.d2lbl.Name = "d2lbl";
             this.d2lbl.Size = new System.Drawing.Size(130, 25);
@@ -528,7 +547,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(138, 519);
+            this.label14.Location = new System.Drawing.Point(167, 516);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(54, 12);
@@ -558,7 +577,7 @@
             // 
             // d3txbx
             // 
-            this.d3txbx.Location = new System.Drawing.Point(484, 485);
+            this.d3txbx.Location = new System.Drawing.Point(507, 482);
             this.d3txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.d3txbx.Name = "d3txbx";
             this.d3txbx.Size = new System.Drawing.Size(150, 31);
@@ -569,14 +588,14 @@
             this.n3txbx.Location = new System.Drawing.Point(101, 482);
             this.n3txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n3txbx.Name = "n3txbx";
-            this.n3txbx.Size = new System.Drawing.Size(150, 31);
+            this.n3txbx.Size = new System.Drawing.Size(194, 31);
             this.n3txbx.TabIndex = 58;
             // 
             // a3lbl
             // 
             this.a3lbl.AutoSize = true;
             this.a3lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.a3lbl.Location = new System.Drawing.Point(731, 491);
+            this.a3lbl.Location = new System.Drawing.Point(760, 491);
             this.a3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.a3lbl.Name = "a3lbl";
             this.a3lbl.Size = new System.Drawing.Size(83, 25);
@@ -587,7 +606,7 @@
             // 
             this.d3lbl.AutoSize = true;
             this.d3lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.d3lbl.Location = new System.Drawing.Point(334, 491);
+            this.d3lbl.Location = new System.Drawing.Point(373, 482);
             this.d3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.d3lbl.Name = "d3lbl";
             this.d3lbl.Size = new System.Drawing.Size(130, 25);
@@ -610,7 +629,7 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(138, 587);
+            this.label19.Location = new System.Drawing.Point(167, 587);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(54, 12);
@@ -640,7 +659,7 @@
             // 
             // d4txbx
             // 
-            this.d4txbx.Location = new System.Drawing.Point(484, 553);
+            this.d4txbx.Location = new System.Drawing.Point(507, 550);
             this.d4txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.d4txbx.Name = "d4txbx";
             this.d4txbx.Size = new System.Drawing.Size(150, 31);
@@ -651,14 +670,14 @@
             this.n4txbx.Location = new System.Drawing.Point(101, 553);
             this.n4txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n4txbx.Name = "n4txbx";
-            this.n4txbx.Size = new System.Drawing.Size(150, 31);
+            this.n4txbx.Size = new System.Drawing.Size(194, 31);
             this.n4txbx.TabIndex = 66;
             // 
             // a4lbl
             // 
             this.a4lbl.AutoSize = true;
             this.a4lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.a4lbl.Location = new System.Drawing.Point(731, 559);
+            this.a4lbl.Location = new System.Drawing.Point(760, 559);
             this.a4lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.a4lbl.Name = "a4lbl";
             this.a4lbl.Size = new System.Drawing.Size(83, 25);
@@ -669,7 +688,7 @@
             // 
             this.d4lbll.AutoSize = true;
             this.d4lbll.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.d4lbll.Location = new System.Drawing.Point(334, 559);
+            this.d4lbll.Location = new System.Drawing.Point(373, 556);
             this.d4lbll.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.d4lbll.Name = "d4lbll";
             this.d4lbll.Size = new System.Drawing.Size(130, 25);
@@ -692,7 +711,7 @@
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(138, 656);
+            this.label24.Location = new System.Drawing.Point(167, 656);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(54, 12);
@@ -722,7 +741,7 @@
             // 
             // d5txbx
             // 
-            this.d5txbx.Location = new System.Drawing.Point(484, 622);
+            this.d5txbx.Location = new System.Drawing.Point(507, 622);
             this.d5txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.d5txbx.Name = "d5txbx";
             this.d5txbx.Size = new System.Drawing.Size(150, 31);
@@ -733,14 +752,14 @@
             this.n5txbx.Location = new System.Drawing.Point(101, 622);
             this.n5txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.n5txbx.Name = "n5txbx";
-            this.n5txbx.Size = new System.Drawing.Size(150, 31);
+            this.n5txbx.Size = new System.Drawing.Size(194, 31);
             this.n5txbx.TabIndex = 74;
             // 
             // a5lbl
             // 
             this.a5lbl.AutoSize = true;
             this.a5lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.a5lbl.Location = new System.Drawing.Point(731, 628);
+            this.a5lbl.Location = new System.Drawing.Point(760, 628);
             this.a5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.a5lbl.Name = "a5lbl";
             this.a5lbl.Size = new System.Drawing.Size(83, 25);
@@ -751,7 +770,7 @@
             // 
             this.d5lbl.AutoSize = true;
             this.d5lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.d5lbl.Location = new System.Drawing.Point(334, 628);
+            this.d5lbl.Location = new System.Drawing.Point(373, 622);
             this.d5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.d5lbl.Name = "d5lbl";
             this.d5lbl.Size = new System.Drawing.Size(130, 25);
@@ -769,12 +788,203 @@
             this.n5lbl.TabIndex = 71;
             this.n5lbl.Text = "Name:";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(507, 395);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(141, 12);
+            this.label11.TabIndex = 79;
+            this.label11.Text = "(MM/DD/YY eg. June 15, 2022)";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(507, 455);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(141, 12);
+            this.label12.TabIndex = 80;
+            this.label12.Text = "(MM/DD/YY eg. June 15, 2022)";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.Location = new System.Drawing.Point(507, 519);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(141, 12);
+            this.label13.TabIndex = 81;
+            this.label13.Text = "(MM/DD/YY eg. June 15, 2022)";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(507, 587);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(141, 12);
+            this.label16.TabIndex = 82;
+            this.label16.Text = "(MM/DD/YY eg. June 15, 2022)";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(507, 656);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(141, 12);
+            this.label17.TabIndex = 83;
+            this.label17.Text = "(MM/DD/YY eg. June 15, 2022)";
+            // 
+            // C1txbx
+            // 
+            this.C1txbx.Location = new System.Drawing.Point(977, 118);
+            this.C1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.C1txbx.Name = "C1txbx";
+            this.C1txbx.Size = new System.Drawing.Size(150, 31);
+            this.C1txbx.TabIndex = 85;
+            // 
+            // C1lbl
+            // 
+            this.C1lbl.AutoSize = true;
+            this.C1lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.C1lbl.Location = new System.Drawing.Point(894, 118);
+            this.C1lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.C1lbl.Name = "C1lbl";
+            this.C1lbl.Size = new System.Drawing.Size(80, 25);
+            this.C1lbl.TabIndex = 84;
+            this.C1lbl.Text = "Contact:";
+            // 
+            // C2txbx
+            // 
+            this.C2txbx.Location = new System.Drawing.Point(1345, 358);
+            this.C2txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.C2txbx.Name = "C2txbx";
+            this.C2txbx.Size = new System.Drawing.Size(150, 31);
+            this.C2txbx.TabIndex = 87;
+            // 
+            // C2lbl
+            // 
+            this.C2lbl.AutoSize = true;
+            this.C2lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.C2lbl.Location = new System.Drawing.Point(1262, 358);
+            this.C2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.C2lbl.Name = "C2lbl";
+            this.C2lbl.Size = new System.Drawing.Size(80, 25);
+            this.C2lbl.TabIndex = 86;
+            this.C2lbl.Text = "Contact:";
+            // 
+            // C3txbx
+            // 
+            this.C3txbx.Location = new System.Drawing.Point(1345, 421);
+            this.C3txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.C3txbx.Name = "C3txbx";
+            this.C3txbx.Size = new System.Drawing.Size(150, 31);
+            this.C3txbx.TabIndex = 89;
+            // 
+            // C3lbl
+            // 
+            this.C3lbl.AutoSize = true;
+            this.C3lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.C3lbl.Location = new System.Drawing.Point(1262, 421);
+            this.C3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.C3lbl.Name = "C3lbl";
+            this.C3lbl.Size = new System.Drawing.Size(80, 25);
+            this.C3lbl.TabIndex = 88;
+            this.C3lbl.Text = "Contact:";
+            // 
+            // C4txbx
+            // 
+            this.C4txbx.Location = new System.Drawing.Point(1345, 491);
+            this.C4txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.C4txbx.Name = "C4txbx";
+            this.C4txbx.Size = new System.Drawing.Size(150, 31);
+            this.C4txbx.TabIndex = 91;
+            // 
+            // C4lbl
+            // 
+            this.C4lbl.AutoSize = true;
+            this.C4lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.C4lbl.Location = new System.Drawing.Point(1262, 491);
+            this.C4lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.C4lbl.Name = "C4lbl";
+            this.C4lbl.Size = new System.Drawing.Size(80, 25);
+            this.C4lbl.TabIndex = 90;
+            this.C4lbl.Text = "Contact:";
+            // 
+            // C5txbx
+            // 
+            this.C5txbx.Location = new System.Drawing.Point(1345, 559);
+            this.C5txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.C5txbx.Name = "C5txbx";
+            this.C5txbx.Size = new System.Drawing.Size(150, 31);
+            this.C5txbx.TabIndex = 93;
+            // 
+            // C5lbl
+            // 
+            this.C5lbl.AutoSize = true;
+            this.C5lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.C5lbl.Location = new System.Drawing.Point(1262, 559);
+            this.C5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.C5lbl.Name = "C5lbl";
+            this.C5lbl.Size = new System.Drawing.Size(80, 25);
+            this.C5lbl.TabIndex = 92;
+            this.C5lbl.Text = "Contact:";
+            // 
+            // C6txbx
+            // 
+            this.C6txbx.Location = new System.Drawing.Point(1345, 628);
+            this.C6txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.C6txbx.Name = "C6txbx";
+            this.C6txbx.Size = new System.Drawing.Size(150, 31);
+            this.C6txbx.TabIndex = 95;
+            // 
+            // C6lbl
+            // 
+            this.C6lbl.AutoSize = true;
+            this.C6lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.C6lbl.Location = new System.Drawing.Point(1262, 628);
+            this.C6lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.C6lbl.Name = "C6lbl";
+            this.C6lbl.Size = new System.Drawing.Size(80, 25);
+            this.C6lbl.TabIndex = 94;
+            this.C6lbl.Text = "Contact:";
+            // 
             // CovidPatientlbl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1214, 784);
+            this.ClientSize = new System.Drawing.Size(1569, 784);
+            this.Controls.Add(this.C6txbx);
+            this.Controls.Add(this.C6lbl);
+            this.Controls.Add(this.C5txbx);
+            this.Controls.Add(this.C5lbl);
+            this.Controls.Add(this.C4txbx);
+            this.Controls.Add(this.C4lbl);
+            this.Controls.Add(this.C3txbx);
+            this.Controls.Add(this.C3lbl);
+            this.Controls.Add(this.C2txbx);
+            this.Controls.Add(this.C2lbl);
+            this.Controls.Add(this.C1txbx);
+            this.Controls.Add(this.C1lbl);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.a5txbx);
@@ -913,5 +1123,22 @@
         private Label a5lbl;
         private Label d5lbl;
         private Label n5lbl;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label16;
+        private Label label17;
+        private TextBox C1txbx;
+        private Label C1lbl;
+        private TextBox C2txbx;
+        private Label C2lbl;
+        private TextBox C3txbx;
+        private Label C3lbl;
+        private TextBox C4txbx;
+        private Label C4lbl;
+        private TextBox C5txbx;
+        private Label C5lbl;
+        private TextBox C6txbx;
+        private Label C6lbl;
     }
 }
