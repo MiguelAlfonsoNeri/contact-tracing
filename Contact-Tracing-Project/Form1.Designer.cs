@@ -90,6 +90,12 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.yearvisittxbx = new System.Windows.Forms.TextBox();
+            this.dayvisittxbx = new System.Windows.Forms.TextBox();
+            this.monthvisittxbx = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // bnSub
@@ -98,7 +104,7 @@
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bnSub.ForeColor = System.Drawing.Color.White;
-            this.bnSub.Location = new System.Drawing.Point(820, 560);
+            this.bnSub.Location = new System.Drawing.Point(782, 781);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 42);
@@ -594,7 +600,7 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label17.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(526, 514);
+            this.label17.Location = new System.Drawing.Point(521, 520);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(35, 12);
@@ -705,16 +711,16 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.Location = new System.Drawing.Point(23, 654);
+            this.label25.Location = new System.Drawing.Point(14, 780);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(218, 25);
+            this.label25.Size = new System.Drawing.Size(157, 25);
             this.label25.TabIndex = 126;
-            this.label25.Text = "Are you fully vaccinated?";
+            this.label25.Text = "date of visitation:";
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(242, 645);
+            this.textBox8.Location = new System.Drawing.Point(245, 654);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
@@ -726,7 +732,7 @@
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label26.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(262, 682);
+            this.label26.Location = new System.Drawing.Point(262, 691);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(36, 12);
@@ -739,14 +745,77 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(-2, 697);
+            this.button3.Location = new System.Drawing.Point(-2, 730);
             this.button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(1067, 34);
             this.button3.TabIndex = 129;
-            this.button3.Text = "Visitation details";
+            this.button3.Text = "Visitation Details";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label27.Location = new System.Drawing.Point(486, 817);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(23, 12);
+            this.label27.TabIndex = 135;
+            this.label27.Text = "year";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label28.Location = new System.Drawing.Point(357, 817);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(21, 12);
+            this.label28.TabIndex = 134;
+            this.label28.Text = "day";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label29.Location = new System.Drawing.Point(231, 817);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(35, 12);
+            this.label29.TabIndex = 133;
+            this.label29.Text = "month";
+            // 
+            // yearvisittxbx
+            // 
+            this.yearvisittxbx.Location = new System.Drawing.Point(439, 780);
+            this.yearvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.yearvisittxbx.Multiline = true;
+            this.yearvisittxbx.Name = "yearvisittxbx";
+            this.yearvisittxbx.Size = new System.Drawing.Size(129, 34);
+            this.yearvisittxbx.TabIndex = 132;
+            // 
+            // dayvisittxbx
+            // 
+            this.dayvisittxbx.Location = new System.Drawing.Point(314, 780);
+            this.dayvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.dayvisittxbx.Multiline = true;
+            this.dayvisittxbx.Name = "dayvisittxbx";
+            this.dayvisittxbx.Size = new System.Drawing.Size(118, 34);
+            this.dayvisittxbx.TabIndex = 131;
+            // 
+            // monthvisittxbx
+            // 
+            this.monthvisittxbx.Location = new System.Drawing.Point(196, 780);
+            this.monthvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.monthvisittxbx.Multiline = true;
+            this.monthvisittxbx.Name = "monthvisittxbx";
+            this.monthvisittxbx.Size = new System.Drawing.Size(114, 34);
+            this.monthvisittxbx.TabIndex = 130;
             // 
             // CovidPatientlbl
             // 
@@ -755,7 +824,13 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1059, 926);
+            this.ClientSize = new System.Drawing.Size(1059, 848);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.yearvisittxbx);
+            this.Controls.Add(this.dayvisittxbx);
+            this.Controls.Add(this.monthvisittxbx);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.textBox8);
@@ -887,11 +962,17 @@
         private Label label25;
         private TextBox textBox8;
         private Label label26;
-        private Button button3;
         private TextBox symptompstxbx;
         private TextBox symmonth;
         private TextBox sympday;
         private TextBox sympyear;
         private TextBox exposedtxbx;
+        private Button button3;
+        private Label label27;
+        private Label label28;
+        private Label label29;
+        private TextBox yearvisittxbx;
+        private TextBox dayvisittxbx;
+        private TextBox monthvisittxbx;
     }
 }
