@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CovidPatientlbl));
             this.bnSub = new System.Windows.Forms.Button();
             this.PnameLbl = new System.Windows.Forms.Label();
             this.PageLbl = new System.Windows.Forms.Label();
@@ -70,16 +71,16 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.symptompstxbx = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.symmonth = new System.Windows.Forms.TextBox();
+            this.sympday = new System.Windows.Forms.TextBox();
+            this.sympyear = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.exposedtxbx = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
@@ -88,6 +89,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bnSub
@@ -96,7 +98,7 @@
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bnSub.ForeColor = System.Drawing.Color.White;
-            this.bnSub.Location = new System.Drawing.Point(820, 720);
+            this.bnSub.Location = new System.Drawing.Point(820, 560);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 42);
@@ -153,7 +155,7 @@
             // 
             // Pfntxbx
             // 
-            this.Pfntxbx.Location = new System.Drawing.Point(94, 115);
+            this.Pfntxbx.Location = new System.Drawing.Point(83, 108);
             this.Pfntxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pfntxbx.Name = "Pfntxbx";
             this.Pfntxbx.Size = new System.Drawing.Size(126, 31);
@@ -161,7 +163,7 @@
             // 
             // Pagetxbx
             // 
-            this.Pagetxbx.Location = new System.Drawing.Point(94, 163);
+            this.Pagetxbx.Location = new System.Drawing.Point(83, 166);
             this.Pagetxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pagetxbx.Name = "Pagetxbx";
             this.Pagetxbx.Size = new System.Drawing.Size(51, 31);
@@ -277,7 +279,7 @@
             // 
             // Pmntxbx
             // 
-            this.Pmntxbx.Location = new System.Drawing.Point(242, 114);
+            this.Pmntxbx.Location = new System.Drawing.Point(231, 108);
             this.Pmntxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pmntxbx.Name = "Pmntxbx";
             this.Pmntxbx.Size = new System.Drawing.Size(135, 31);
@@ -285,7 +287,7 @@
             // 
             // Plntxbx
             // 
-            this.Plntxbx.Location = new System.Drawing.Point(396, 115);
+            this.Plntxbx.Location = new System.Drawing.Point(382, 108);
             this.Plntxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Plntxbx.Name = "Plntxbx";
             this.Plntxbx.Size = new System.Drawing.Size(146, 31);
@@ -312,7 +314,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(149, 148);
+            this.label1.Location = new System.Drawing.Point(142, 142);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(17, 12);
@@ -324,7 +326,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(299, 148);
+            this.label5.Location = new System.Drawing.Point(291, 142);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(17, 12);
@@ -336,7 +338,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(452, 149);
+            this.label6.Location = new System.Drawing.Point(443, 142);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(17, 12);
@@ -540,59 +542,59 @@
             this.label15.TabIndex = 110;
             this.label15.Text = "(Loss of taste, Loss of smell, Shortness of breath, cough, fever) ";
             // 
-            // textBox2
+            // symptompstxbx
             // 
-            this.textBox2.Location = new System.Drawing.Point(581, 412);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(66, 34);
-            this.textBox2.TabIndex = 111;
+            this.symptompstxbx.Location = new System.Drawing.Point(581, 412);
+            this.symptompstxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.symptompstxbx.Multiline = true;
+            this.symptompstxbx.Name = "symptompstxbx";
+            this.symptompstxbx.Size = new System.Drawing.Size(66, 34);
+            this.symptompstxbx.TabIndex = 111;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(23, 486);
+            this.label16.Location = new System.Drawing.Point(11, 486);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(405, 25);
+            this.label16.Size = new System.Drawing.Size(455, 25);
             this.label16.TabIndex = 112;
-            this.label16.Text = "Specify the date when these symptoms started:";
+            this.label16.Text = "If yes, specify the date when these symptoms started:";
             // 
-            // textBox3
+            // symmonth
             // 
-            this.textBox3.Location = new System.Drawing.Point(432, 477);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(114, 34);
-            this.textBox3.TabIndex = 113;
+            this.symmonth.Location = new System.Drawing.Point(492, 483);
+            this.symmonth.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.symmonth.Multiline = true;
+            this.symmonth.Name = "symmonth";
+            this.symmonth.Size = new System.Drawing.Size(114, 34);
+            this.symmonth.TabIndex = 113;
             // 
-            // textBox4
+            // sympday
             // 
-            this.textBox4.Location = new System.Drawing.Point(560, 477);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(118, 34);
-            this.textBox4.TabIndex = 114;
+            this.sympday.Location = new System.Drawing.Point(610, 483);
+            this.sympday.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.sympday.Multiline = true;
+            this.sympday.Name = "sympday";
+            this.sympday.Size = new System.Drawing.Size(118, 34);
+            this.sympday.TabIndex = 114;
             // 
-            // textBox5
+            // sympyear
             // 
-            this.textBox5.Location = new System.Drawing.Point(695, 477);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(129, 34);
-            this.textBox5.TabIndex = 115;
+            this.sympyear.Location = new System.Drawing.Point(735, 483);
+            this.sympyear.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.sympyear.Multiline = true;
+            this.sympyear.Name = "sympyear";
+            this.sympyear.Size = new System.Drawing.Size(129, 34);
+            this.sympyear.TabIndex = 115;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label17.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(472, 514);
+            this.label17.Location = new System.Drawing.Point(526, 514);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(35, 12);
@@ -604,7 +606,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label18.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(610, 514);
+            this.label18.Location = new System.Drawing.Point(653, 520);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(21, 12);
@@ -616,7 +618,7 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(751, 514);
+            this.label19.Location = new System.Drawing.Point(782, 520);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(23, 12);
@@ -634,14 +636,14 @@
             this.label20.TabIndex = 119;
             this.label20.Text = "Have you been with someone who has been exposed?";
             // 
-            // textBox6
+            // exposedtxbx
             // 
-            this.textBox6.Location = new System.Drawing.Point(488, 542);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(73, 34);
-            this.textBox6.TabIndex = 120;
+            this.exposedtxbx.Location = new System.Drawing.Point(488, 542);
+            this.exposedtxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.exposedtxbx.Multiline = true;
+            this.exposedtxbx.Name = "exposedtxbx";
+            this.exposedtxbx.Size = new System.Drawing.Size(73, 34);
+            this.exposedtxbx.TabIndex = 120;
             // 
             // label21
             // 
@@ -731,12 +733,30 @@
             this.label26.TabIndex = 128;
             this.label26.Text = "Yes/No";
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(-2, 697);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(1067, 34);
+            this.button3.TabIndex = 129;
+            this.button3.Text = "Visitation details";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // CovidPatientlbl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1059, 842);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1059, 926);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label25);
@@ -745,16 +765,16 @@
             this.Controls.Add(this.label22);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.exposedtxbx);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.sympyear);
+            this.Controls.Add(this.sympday);
+            this.Controls.Add(this.symmonth);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.symptompstxbx);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -867,5 +887,11 @@
         private Label label25;
         private TextBox textBox8;
         private Label label26;
+        private Button button3;
+        private TextBox symptompstxbx;
+        private TextBox symmonth;
+        private TextBox sympday;
+        private TextBox sympyear;
+        private TextBox exposedtxbx;
     }
 }
