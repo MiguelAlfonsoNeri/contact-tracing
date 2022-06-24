@@ -82,13 +82,11 @@
             this.label20 = new System.Windows.Forms.Label();
             this.exposedtxbx = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.vaccinatedtxbx = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -104,7 +102,7 @@
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bnSub.ForeColor = System.Drawing.Color.White;
-            this.bnSub.Location = new System.Drawing.Point(782, 781);
+            this.bnSub.Location = new System.Drawing.Point(810, 720);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 42);
@@ -638,9 +636,9 @@
             this.label20.Location = new System.Drawing.Point(23, 551);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(461, 25);
+            this.label20.Size = new System.Drawing.Size(465, 25);
             this.label20.TabIndex = 119;
-            this.label20.Text = "Have you been with someone who has been exposed?";
+            this.label20.Text = "Have you been with someone who has been exposed?:";
             // 
             // exposedtxbx
             // 
@@ -658,18 +656,18 @@
             this.label21.Location = new System.Drawing.Point(25, 603);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(461, 25);
+            this.label21.Size = new System.Drawing.Size(224, 25);
             this.label21.TabIndex = 121;
-            this.label21.Text = "Have you been with someone who has been exposed?";
+            this.label21.Text = "Are you fully-vaccinated?:";
             // 
-            // textBox7
+            // vaccinatedtxbx
             // 
-            this.textBox7.Location = new System.Drawing.Point(490, 594);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(66, 34);
-            this.textBox7.TabIndex = 122;
+            this.vaccinatedtxbx.Location = new System.Drawing.Point(251, 594);
+            this.vaccinatedtxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.vaccinatedtxbx.Multiline = true;
+            this.vaccinatedtxbx.Name = "vaccinatedtxbx";
+            this.vaccinatedtxbx.Size = new System.Drawing.Size(66, 34);
+            this.vaccinatedtxbx.TabIndex = 122;
             // 
             // label22
             // 
@@ -700,7 +698,7 @@
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(506, 631);
+            this.label24.Location = new System.Drawing.Point(272, 631);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(36, 12);
@@ -711,33 +709,12 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.Location = new System.Drawing.Point(14, 780);
+            this.label25.Location = new System.Drawing.Point(14, 726);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(157, 25);
             this.label25.TabIndex = 126;
             this.label25.Text = "date of visitation:";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(245, 654);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(66, 34);
-            this.textBox8.TabIndex = 127;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(262, 691);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(36, 12);
-            this.label26.TabIndex = 128;
-            this.label26.Text = "Yes/No";
             // 
             // button3
             // 
@@ -745,7 +722,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(-2, 730);
+            this.button3.Location = new System.Drawing.Point(14, 670);
             this.button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(1067, 34);
@@ -759,7 +736,7 @@
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label27.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(486, 817);
+            this.label27.Location = new System.Drawing.Point(474, 763);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(23, 12);
@@ -771,7 +748,7 @@
             this.label28.AutoSize = true;
             this.label28.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label28.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label28.Location = new System.Drawing.Point(357, 817);
+            this.label28.Location = new System.Drawing.Point(345, 763);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(21, 12);
@@ -783,7 +760,7 @@
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.label29.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label29.Location = new System.Drawing.Point(231, 817);
+            this.label29.Location = new System.Drawing.Point(219, 763);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(35, 12);
@@ -792,7 +769,7 @@
             // 
             // yearvisittxbx
             // 
-            this.yearvisittxbx.Location = new System.Drawing.Point(439, 780);
+            this.yearvisittxbx.Location = new System.Drawing.Point(417, 726);
             this.yearvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.yearvisittxbx.Multiline = true;
             this.yearvisittxbx.Name = "yearvisittxbx";
@@ -801,7 +778,7 @@
             // 
             // dayvisittxbx
             // 
-            this.dayvisittxbx.Location = new System.Drawing.Point(314, 780);
+            this.dayvisittxbx.Location = new System.Drawing.Point(295, 726);
             this.dayvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dayvisittxbx.Multiline = true;
             this.dayvisittxbx.Name = "dayvisittxbx";
@@ -810,7 +787,7 @@
             // 
             // monthvisittxbx
             // 
-            this.monthvisittxbx.Location = new System.Drawing.Point(196, 780);
+            this.monthvisittxbx.Location = new System.Drawing.Point(177, 726);
             this.monthvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.monthvisittxbx.Multiline = true;
             this.monthvisittxbx.Name = "monthvisittxbx";
@@ -824,7 +801,7 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1059, 848);
+            this.ClientSize = new System.Drawing.Size(1059, 835);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.label29);
@@ -832,13 +809,11 @@
             this.Controls.Add(this.dayvisittxbx);
             this.Controls.Add(this.monthvisittxbx);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.vaccinatedtxbx);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.exposedtxbx);
             this.Controls.Add(this.label20);
@@ -955,13 +930,11 @@
         private Label label20;
         private TextBox textBox6;
         private Label label21;
-        private TextBox textBox7;
+        private TextBox vaccinatedtxbx;
         private Label label22;
         private Label label23;
         private Label label24;
         private Label label25;
-        private TextBox textBox8;
-        private Label label26;
         private TextBox symptompstxbx;
         private TextBox symmonth;
         private TextBox sympday;
