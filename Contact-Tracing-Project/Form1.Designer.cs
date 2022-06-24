@@ -117,7 +117,7 @@
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bnSub.ForeColor = System.Drawing.Color.White;
-            this.bnSub.Location = new System.Drawing.Point(461, 718);
+            this.bnSub.Location = new System.Drawing.Point(665, 730);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 42);
@@ -294,7 +294,7 @@
             // 
             // d1txbx
             // 
-            this.d1txbx.Location = new System.Drawing.Point(507, 361);
+            this.d1txbx.Location = new System.Drawing.Point(507, 358);
             this.d1txbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.d1txbx.Name = "d1txbx";
             this.d1txbx.Size = new System.Drawing.Size(150, 31);
