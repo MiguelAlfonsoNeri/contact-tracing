@@ -9,45 +9,80 @@ namespace Contact_Tracing_Project
 
         private void bnSub_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\Migo\OneDrive\Documents\Contact tracing\test.txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\Migo\OneDrive\Documents\Contact tracing" + Pfntxbx.Text + "-" + Plntxbx.Text + ".txt", true);
+            file.WriteLine("Visitation Date:" + dtmtb.Text);
+            file.WriteLine("");
             file.WriteLine("Personal Information");
-            file.WriteLine("Name:" + Pfntxbx.Text);
+            file.WriteLine("Name");
+            file.WriteLine("First Name" + Pfntxbx.Text);
+            file.WriteLine("Second Name:" + Pmntxbx.Text);
+            file.WriteLine("Last Name:" + Plntxbx.Text);
             file.WriteLine("Age:" + Pagetxbx.Text);
-            file.WriteLine("Birthday:" + Pmbday.Text);
+            file.WriteLine("Birthday");
+            file.WriteLine("month:" + Pmbday.Text);
+            file.WriteLine("day:" + Pdbday.Text);
+            file.WriteLine("year:" + Pybday.Text);
             file.WriteLine("Gender:" + Pgendertxbx.Text);
-            file.WriteLine("Address:" + streettxbx.Text);
+            file.WriteLine("Address:");
+            file.WriteLine("street:" + streettxbx.Text);
+            file.WriteLine("barangay:" + brngytxbx.Text);
+            file.WriteLine("House Number:" + hntxbx.Text);
+            file.WriteLine("Lot:" + lottxbx.Text);
+            file.WriteLine("Municipality:" + munitxbx.Text);
+            file.WriteLine("Block:" + textBox1.Text);
             file.WriteLine("Contact:" + C1txbx.Text);
             file.WriteLine("Email:" + emailtxbx.Text);
-            file.WriteLine("Have you experiencing or experienced the following symptoms?:" + symptompstxbx.Text);
+            file.WriteLine("Experiencing or experienced the following symptoms?:" + symptompstxbx.Text);
             file.WriteLine("If yes, specify the date when these symptoms started:");
             file.WriteLine("month:" + symmonth.Text);
             file.WriteLine("day:" + sympday.Text);
             file.WriteLine("year:" + sympyear.Text);
-            file.WriteLine("Have you been with someone who has been exposed?:" + exposedtxbx.Text);
-            file.WriteLine("Are you fully-vaccinated?:" + vaccinatedtxbx.Text);
+            file.WriteLine("Exposed with someone positive:" + exposedtxbx.Text);
+            file.WriteLine("fully-vaccinated:" + vaccinatedtxbx.Text);
             file.WriteLine("");
-            file.WriteLine("Visitation Date:");
-            file.WriteLine("month:" + monthvisittxbx.Text);
-            file.WriteLine("day:" + dayvisittxbx.Text);
-            file.WriteLine("year:" + yearvisittxbx.Text);
+            file.Flush();
             file.Close();
 
             Pfntxbx.Text = "";
+            dtmtb.Text = "";
+            Pmntxbx.Text = "";
+            Plntxbx.Text = "";
             Pagetxbx.Text = "";
             Pmbday.Text = "";
+            Pdbday.Text = "";
+            Pybday.Text = "";
             Pgendertxbx.Text = "";
             streettxbx.Text = "";
+            brngytxbx.Text = "";
+            hntxbx.Text = "";
+            lottxbx.Text = "";
+            textBox1.Text = "";
+            munitxbx.Text = "";
             C1txbx.Text = "";
             emailtxbx.Text = "";
+            symptompstxbx.Text = "";
+            exposedtxbx.Text = "";
             symmonth.Text = "";
             sympday.Text = "";
             sympyear.Text = "";
             exposedtxbx.Text = "";
             vaccinatedtxbx.Text = "";
-            monthvisittxbx.Text = "";
-            dayvisittxbx.Text = "";
-            yearvisittxbx.Text = "";
             MessageBox.Show("Your response has been recorded, thanks for filling out!");
+
+        }
+        private void showbtn_Click_1(object sender, EventArgs e)
+        {
+            if (usernametb.Text == "admin" && passtb.Text == "migo")
+            {
+                this.Hide();
+                Form2 f2 = new Form2();
+                f2.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect Credentials!");
+            }
         }
     }
 }

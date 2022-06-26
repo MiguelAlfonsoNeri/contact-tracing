@@ -88,12 +88,12 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.showbtn = new System.Windows.Forms.Button();
+            this.dtmtb = new System.Windows.Forms.DateTimePicker();
+            this.usernametb = new System.Windows.Forms.TextBox();
+            this.passtb = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.yearvisittxbx = new System.Windows.Forms.TextBox();
-            this.dayvisittxbx = new System.Windows.Forms.TextBox();
-            this.monthvisittxbx = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // bnSub
@@ -102,7 +102,7 @@
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bnSub.ForeColor = System.Drawing.Color.White;
-            this.bnSub.Location = new System.Drawing.Point(810, 720);
+            this.bnSub.Location = new System.Drawing.Point(36, 768);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 42);
@@ -167,7 +167,7 @@
             // 
             // Pagetxbx
             // 
-            this.Pagetxbx.Location = new System.Drawing.Point(83, 166);
+            this.Pagetxbx.Location = new System.Drawing.Point(67, 166);
             this.Pagetxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Pagetxbx.Name = "Pagetxbx";
             this.Pagetxbx.Size = new System.Drawing.Size(51, 31);
@@ -207,9 +207,10 @@
             this.BtnTitle.Location = new System.Drawing.Point(-2, 12);
             this.BtnTitle.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BtnTitle.Name = "BtnTitle";
-            this.BtnTitle.Size = new System.Drawing.Size(1067, 41);
+            this.BtnTitle.Size = new System.Drawing.Size(530, 41);
             this.BtnTitle.TabIndex = 33;
             this.BtnTitle.Text = "Covid-19 Exposure Contact Log Form";
+            this.BtnTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnTitle.UseVisualStyleBackColor = false;
             // 
             // Paddrslbl
@@ -731,68 +732,67 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // showbtn
+            // 
+            this.showbtn.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.showbtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.showbtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.showbtn.Location = new System.Drawing.Point(881, 790);
+            this.showbtn.Name = "showbtn";
+            this.showbtn.Size = new System.Drawing.Size(151, 41);
+            this.showbtn.TabIndex = 136;
+            this.showbtn.Text = "Log in";
+            this.showbtn.UseVisualStyleBackColor = false;
+            this.showbtn.Click += new System.EventHandler(this.showbtn_Click_1);
+            // 
+            // dtmtb
+            // 
+            this.dtmtb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtmtb.Location = new System.Drawing.Point(176, 720);
+            this.dtmtb.Name = "dtmtb";
+            this.dtmtb.Size = new System.Drawing.Size(300, 31);
+            this.dtmtb.TabIndex = 137;
+            // 
+            // usernametb
+            // 
+            this.usernametb.Location = new System.Drawing.Point(900, 710);
+            this.usernametb.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.usernametb.Multiline = true;
+            this.usernametb.Name = "usernametb";
+            this.usernametb.Size = new System.Drawing.Size(118, 34);
+            this.usernametb.TabIndex = 138;
+            // 
+            // passtb
+            // 
+            this.passtb.Location = new System.Drawing.Point(900, 750);
+            this.passtb.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.passtb.Multiline = true;
+            this.passtb.Name = "passtb";
+            this.passtb.PasswordChar = '*';
+            this.passtb.Size = new System.Drawing.Size(118, 34);
+            this.passtb.TabIndex = 139;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label26.Location = new System.Drawing.Point(767, 720);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(129, 25);
+            this.label26.TabIndex = 140;
+            this.label26.Text = "Personel only:";
+            // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(474, 763);
+            this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label27.Location = new System.Drawing.Point(802, 753);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(23, 12);
-            this.label27.TabIndex = 135;
-            this.label27.Text = "year";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label28.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label28.Location = new System.Drawing.Point(345, 763);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(21, 12);
-            this.label28.TabIndex = 134;
-            this.label28.Text = "day";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label29.Location = new System.Drawing.Point(219, 763);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(35, 12);
-            this.label29.TabIndex = 133;
-            this.label29.Text = "month";
-            // 
-            // yearvisittxbx
-            // 
-            this.yearvisittxbx.Location = new System.Drawing.Point(417, 726);
-            this.yearvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.yearvisittxbx.Multiline = true;
-            this.yearvisittxbx.Name = "yearvisittxbx";
-            this.yearvisittxbx.Size = new System.Drawing.Size(129, 34);
-            this.yearvisittxbx.TabIndex = 132;
-            // 
-            // dayvisittxbx
-            // 
-            this.dayvisittxbx.Location = new System.Drawing.Point(295, 726);
-            this.dayvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.dayvisittxbx.Multiline = true;
-            this.dayvisittxbx.Name = "dayvisittxbx";
-            this.dayvisittxbx.Size = new System.Drawing.Size(118, 34);
-            this.dayvisittxbx.TabIndex = 131;
-            // 
-            // monthvisittxbx
-            // 
-            this.monthvisittxbx.Location = new System.Drawing.Point(177, 726);
-            this.monthvisittxbx.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.monthvisittxbx.Multiline = true;
-            this.monthvisittxbx.Name = "monthvisittxbx";
-            this.monthvisittxbx.Size = new System.Drawing.Size(114, 34);
-            this.monthvisittxbx.TabIndex = 130;
+            this.label27.Size = new System.Drawing.Size(94, 25);
+            this.label27.TabIndex = 141;
+            this.label27.Text = "Password:";
             // 
             // CovidPatientlbl
             // 
@@ -803,11 +803,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1059, 835);
             this.Controls.Add(this.label27);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.yearvisittxbx);
-            this.Controls.Add(this.dayvisittxbx);
-            this.Controls.Add(this.monthvisittxbx);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.passtb);
+            this.Controls.Add(this.usernametb);
+            this.Controls.Add(this.dtmtb);
+            this.Controls.Add(this.showbtn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
@@ -941,11 +941,11 @@
         private TextBox sympyear;
         private TextBox exposedtxbx;
         private Button button3;
+        private Button showbtn;
+        private DateTimePicker dtmtb;
+        private TextBox usernametb;
+        private TextBox passtb;
+        private Label label26;
         private Label label27;
-        private Label label28;
-        private Label label29;
-        private TextBox yearvisittxbx;
-        private TextBox dayvisittxbx;
-        private TextBox monthvisittxbx;
     }
 }

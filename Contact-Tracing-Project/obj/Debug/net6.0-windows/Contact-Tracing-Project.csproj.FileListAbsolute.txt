@@ -5,6 +5,7 @@ C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contac
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\bin\Debug\net6.0-windows\Contact-Tracing-Project.pdb
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.csproj.AssemblyReference.cache
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact_Tracing_Project.CovidPatientlbl.resources
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact_Tracing_Project.Form2.resources
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact_Tracing_Project.Properties.Resources.resources
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.csproj.GenerateResource.cache
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\Contact-Tracing-Project\obj\Debug\net6.0-windows\Contact-Tracing-Project.GeneratedMSBuildEditorConfig.editorconfig
