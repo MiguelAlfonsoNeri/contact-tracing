@@ -37,7 +37,7 @@
             // 
             // btnshow
             // 
-            this.btnshow.Location = new System.Drawing.Point(69, 30);
+            this.btnshow.Location = new System.Drawing.Point(62, 30);
             this.btnshow.Name = "btnshow";
             this.btnshow.Size = new System.Drawing.Size(164, 34);
             this.btnshow.TabIndex = 0;

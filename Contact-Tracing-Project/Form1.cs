@@ -9,7 +9,7 @@ namespace Contact_Tracing_Project
 
         private void bnSub_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\Migo\OneDrive\Documents\Contact tracing" + Pfntxbx.Text + "-" + Plntxbx.Text + ".txt", true);
+            StreamWriter file = new StreamWriter (@"C:\Users\Migo\OneDrive\Documents\Contact tracing\" + Pfntxbx.Text + "-" + Plntxbx.Text + ".txt", true);
             file.WriteLine("Visitation Date:" + dtmtb.Text);
             file.WriteLine("");
             file.WriteLine("Personal Information");
@@ -78,6 +78,9 @@ namespace Contact_Tracing_Project
                 Form2 f2 = new Form2();
                 f2.ShowDialog();
                 this.Show();
+
+                usernametb.Text = "";
+                passtb.Text = "";
             }
             else
             {

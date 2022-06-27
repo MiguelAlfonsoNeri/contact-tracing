@@ -20,11 +20,11 @@ namespace Contact_Tracing_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var dateFiles = Directory.GetFiles(@"C:\Users\Migo\OneDrive\Documents\Contact tracing");
-            foreach (String file in dateFiles)
+            var txtFiles = Directory.GetFiles(@"C:\Users\Migo\OneDrive\Documents\Contact tracing\");
+            foreach (string file in txtFiles)
             {
-                string dates = File.ReadAllText(file);
-
+                string allcontent = File.ReadAllText(file);
+                showtxbx.Text = showtxbx.Text + allcontent;
             }
         }
 
