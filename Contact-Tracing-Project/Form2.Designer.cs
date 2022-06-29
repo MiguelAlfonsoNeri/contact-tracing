@@ -28,65 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.btnshow = new System.Windows.Forms.Button();
             this.showtxbx = new System.Windows.Forms.TextBox();
             this.btndelete = new System.Windows.Forms.Button();
-            this.dtptxbx = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
+            this.date = new System.Windows.Forms.DateTimePicker();
+            this.btnfilter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnshow
             // 
-            this.btnshow.Location = new System.Drawing.Point(62, 30);
+            this.btnshow.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnshow.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnshow.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnshow.Location = new System.Drawing.Point(30, 404);
             this.btnshow.Name = "btnshow";
             this.btnshow.Size = new System.Drawing.Size(164, 34);
             this.btnshow.TabIndex = 0;
-            this.btnshow.Text = "show all records:";
-            this.btnshow.UseVisualStyleBackColor = true;
-            this.btnshow.Click += new System.EventHandler(this.button1_Click);
+            this.btnshow.Text = "show all records";
+            this.btnshow.UseVisualStyleBackColor = false;
+            this.btnshow.Click += new System.EventHandler(this.btnshow_Click);
             // 
             // showtxbx
             // 
-            this.showtxbx.Location = new System.Drawing.Point(27, 70);
+            this.showtxbx.Location = new System.Drawing.Point(30, 24);
             this.showtxbx.Multiline = true;
             this.showtxbx.Name = "showtxbx";
             this.showtxbx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.showtxbx.Size = new System.Drawing.Size(239, 325);
+            this.showtxbx.Size = new System.Drawing.Size(746, 337);
             this.showtxbx.TabIndex = 1;
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(82, 404);
+            this.btndelete.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btndelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btndelete.ForeColor = System.Drawing.SystemColors.Control;
+            this.btndelete.Location = new System.Drawing.Point(664, 404);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(112, 34);
             this.btndelete.TabIndex = 2;
             this.btndelete.Text = "delete";
-            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.UseVisualStyleBackColor = false;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
-            // dtptxbx
+            // date
             // 
-            this.dtptxbx.Location = new System.Drawing.Point(330, 70);
-            this.dtptxbx.Name = "dtptxbx";
-            this.dtptxbx.Size = new System.Drawing.Size(290, 31);
-            this.dtptxbx.TabIndex = 3;
+            this.date.CalendarMonthBackground = System.Drawing.SystemColors.HighlightText;
+            this.date.Location = new System.Drawing.Point(215, 407);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(300, 31);
+            this.date.TabIndex = 3;
             // 
-            // label1
+            // btnfilter
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(330, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 25);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.btnfilter.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnfilter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnfilter.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnfilter.Location = new System.Drawing.Point(531, 404);
+            this.btnfilter.Name = "btnfilter";
+            this.btnfilter.Size = new System.Drawing.Size(112, 34);
+            this.btnfilter.TabIndex = 6;
+            this.btnfilter.Text = "search date";
+            this.btnfilter.UseVisualStyleBackColor = false;
+            this.btnfilter.Click += new System.EventHandler(this.btnfilter_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dtptxbx);
+            this.Controls.Add(this.btnfilter);
+            this.Controls.Add(this.date);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.showtxbx);
             this.Controls.Add(this.btnshow);
@@ -103,6 +116,9 @@
         private TextBox showtxbx;
         private Button btndelete;
         private DateTimePicker dtptxbx;
+        private DateTimePicker date;
         private Label label1;
+        private TextBox filtertxbx;
+        private Button btnfilter;
     }
 }

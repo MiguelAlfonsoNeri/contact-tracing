@@ -9,12 +9,9 @@ namespace Contact_Tracing_Project
 
         private void bnSub_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter (@"C:\Users\Migo\OneDrive\Documents\Contact tracing\" + Pfntxbx.Text + "-" + Plntxbx.Text + ".txt", true);
-            file.WriteLine("Visitation Date:" + dtmtb.Text);
-            file.WriteLine("");
-            file.WriteLine("Personal Information");
-            file.WriteLine("Name");
-            file.WriteLine("First Name" + Pfntxbx.Text);
+            StreamWriter file = new StreamWriter(@"C:\Users\Migo\OneDrive\Documents\Contact Tracing Responses\" + datelbl.Text + ".txt", true);
+    
+            file.WriteLine("First Name:" + Pfntxbx.Text);
             file.WriteLine("Second Name:" + Pmntxbx.Text);
             file.WriteLine("Last Name:" + Plntxbx.Text);
             file.WriteLine("Age:" + Pagetxbx.Text);
@@ -44,7 +41,6 @@ namespace Contact_Tracing_Project
             file.Close();
 
             Pfntxbx.Text = "";
-            dtmtb.Text = "";
             Pmntxbx.Text = "";
             Plntxbx.Text = "";
             Pagetxbx.Text = "";
@@ -86,6 +82,17 @@ namespace Contact_Tracing_Project
             {
                 MessageBox.Show("Incorrect Credentials!");
             }
+        }
+
+        private void CovidPatientlbl_Load(object sender, EventArgs e)
+        {
+            datetimer.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           reeltimelbl.Text = DateTime.Now.ToLongTimeString();
+           datelbl.Text = DateTime.Now.ToLongDateString();
         }
     }
 }

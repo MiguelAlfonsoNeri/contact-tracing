@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CovidPatientlbl));
             this.bnSub = new System.Windows.Forms.Button();
             this.PnameLbl = new System.Windows.Forms.Label();
@@ -86,14 +87,15 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.showbtn = new System.Windows.Forms.Button();
-            this.dtmtb = new System.Windows.Forms.DateTimePicker();
             this.usernametb = new System.Windows.Forms.TextBox();
             this.passtb = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
+            this.datetimer = new System.Windows.Forms.Timer(this.components);
+            this.reeltimelbl = new System.Windows.Forms.Label();
+            this.datelbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bnSub
@@ -102,7 +104,7 @@
             this.bnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bnSub.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bnSub.ForeColor = System.Drawing.Color.White;
-            this.bnSub.Location = new System.Drawing.Point(36, 768);
+            this.bnSub.Location = new System.Drawing.Point(775, 603);
             this.bnSub.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bnSub.Name = "bnSub";
             this.bnSub.Size = new System.Drawing.Size(228, 42);
@@ -207,7 +209,7 @@
             this.BtnTitle.Location = new System.Drawing.Point(-2, 12);
             this.BtnTitle.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BtnTitle.Name = "BtnTitle";
-            this.BtnTitle.Size = new System.Drawing.Size(530, 41);
+            this.BtnTitle.Size = new System.Drawing.Size(1067, 41);
             this.BtnTitle.TabIndex = 33;
             this.BtnTitle.Text = "Covid-19 Exposure Contact Log Form";
             this.BtnTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -634,7 +636,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(23, 551);
+            this.label20.Location = new System.Drawing.Point(11, 545);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(465, 25);
@@ -654,7 +656,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label21.Location = new System.Drawing.Point(25, 603);
+            this.label21.Location = new System.Drawing.Point(11, 597);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(224, 25);
@@ -706,29 +708,18 @@
             this.label24.TabIndex = 125;
             this.label24.Text = "Yes/No";
             // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.Location = new System.Drawing.Point(14, 726);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(157, 25);
-            this.label25.TabIndex = 126;
-            this.label25.Text = "date of visitation:";
-            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(14, 670);
+            this.button3.Location = new System.Drawing.Point(-10, 670);
             this.button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(1067, 34);
+            this.button3.Size = new System.Drawing.Size(1091, 34);
             this.button3.TabIndex = 129;
-            this.button3.Text = "Visitation Details";
+            this.button3.Text = "Admin only";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -737,7 +728,7 @@
             this.showbtn.BackColor = System.Drawing.SystemColors.HotTrack;
             this.showbtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.showbtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.showbtn.Location = new System.Drawing.Point(881, 790);
+            this.showbtn.Location = new System.Drawing.Point(595, 772);
             this.showbtn.Name = "showbtn";
             this.showbtn.Size = new System.Drawing.Size(151, 41);
             this.showbtn.TabIndex = 136;
@@ -745,17 +736,9 @@
             this.showbtn.UseVisualStyleBackColor = false;
             this.showbtn.Click += new System.EventHandler(this.showbtn_Click_1);
             // 
-            // dtmtb
-            // 
-            this.dtmtb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtmtb.Location = new System.Drawing.Point(176, 720);
-            this.dtmtb.Name = "dtmtb";
-            this.dtmtb.Size = new System.Drawing.Size(300, 31);
-            this.dtmtb.TabIndex = 137;
-            // 
             // usernametb
             // 
-            this.usernametb.Location = new System.Drawing.Point(900, 710);
+            this.usernametb.Location = new System.Drawing.Point(438, 716);
             this.usernametb.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.usernametb.Multiline = true;
             this.usernametb.Name = "usernametb";
@@ -764,7 +747,7 @@
             // 
             // passtb
             // 
-            this.passtb.Location = new System.Drawing.Point(900, 750);
+            this.passtb.Location = new System.Drawing.Point(438, 763);
             this.passtb.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.passtb.Multiline = true;
             this.passtb.Name = "passtb";
@@ -776,23 +759,54 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(767, 720);
+            this.label26.Location = new System.Drawing.Point(321, 719);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(129, 25);
+            this.label26.Size = new System.Drawing.Size(98, 25);
             this.label26.TabIndex = 140;
-            this.label26.Text = "Personel only:";
+            this.label26.Text = "username:";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(802, 753);
+            this.label27.Location = new System.Drawing.Point(321, 772);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(94, 25);
             this.label27.TabIndex = 141;
             this.label27.Text = "Password:";
+            // 
+            // datetimer
+            // 
+            this.datetimer.Enabled = true;
+            this.datetimer.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // reeltimelbl
+            // 
+            this.reeltimelbl.AutoSize = true;
+            this.reeltimelbl.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.reeltimelbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.reeltimelbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.reeltimelbl.Location = new System.Drawing.Point(639, 22);
+            this.reeltimelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.reeltimelbl.Name = "reeltimelbl";
+            this.reeltimelbl.Size = new System.Drawing.Size(89, 25);
+            this.reeltimelbl.TabIndex = 143;
+            this.reeltimelbl.Text = "reel-time";
+            // 
+            // datelbl
+            // 
+            this.datelbl.AutoSize = true;
+            this.datelbl.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.datelbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.datelbl.ForeColor = System.Drawing.SystemColors.Control;
+            this.datelbl.Location = new System.Drawing.Point(815, 22);
+            this.datelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.datelbl.Name = "datelbl";
+            this.datelbl.Size = new System.Drawing.Size(49, 25);
+            this.datelbl.TabIndex = 144;
+            this.datelbl.Text = "date";
             // 
             // CovidPatientlbl
             // 
@@ -802,14 +816,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1059, 835);
+            this.Controls.Add(this.datelbl);
+            this.Controls.Add(this.reeltimelbl);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.passtb);
             this.Controls.Add(this.usernametb);
-            this.Controls.Add(this.dtmtb);
             this.Controls.Add(this.showbtn);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
@@ -870,6 +884,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "CovidPatientlbl";
             this.Text = "Contact-Tracing-Form";
+            this.Load += new System.EventHandler(this.CovidPatientlbl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -919,7 +934,7 @@
         private Label label13;
         private Label label14;
         private Label label15;
-        private TextBox textBox2;
+        private TextBox timertxbx;
         private Label label16;
         private TextBox textBox3;
         private TextBox textBox4;
@@ -934,7 +949,6 @@
         private Label label22;
         private Label label23;
         private Label label24;
-        private Label label25;
         private TextBox symptompstxbx;
         private TextBox symmonth;
         private TextBox sympday;
@@ -942,10 +956,12 @@
         private TextBox exposedtxbx;
         private Button button3;
         private Button showbtn;
-        private DateTimePicker dtmtb;
         private TextBox usernametb;
         private TextBox passtb;
         private Label label26;
         private Label label27;
+        private System.Windows.Forms.Timer datetimer;
+        private Label reeltimelbl;
+        private Label datelbl;
     }
 }
