@@ -51,7 +51,7 @@
             // 
             // showtxbx
             // 
-            this.showtxbx.Location = new System.Drawing.Point(30, 24);
+            this.showtxbx.Location = new System.Drawing.Point(30, 27);
             this.showtxbx.Multiline = true;
             this.showtxbx.Name = "showtxbx";
             this.showtxbx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -104,7 +104,8 @@
             this.Controls.Add(this.showtxbx);
             this.Controls.Add(this.btnshow);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ADMIN ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
