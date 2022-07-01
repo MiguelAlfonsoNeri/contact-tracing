@@ -96,6 +96,7 @@
             this.datetimer = new System.Windows.Forms.Timer(this.components);
             this.reeltimelbl = new System.Windows.Forms.Label();
             this.datelbl = new System.Windows.Forms.Label();
+            this.btnqr = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bnSub
@@ -788,7 +789,7 @@
             this.reeltimelbl.BackColor = System.Drawing.SystemColors.HotTrack;
             this.reeltimelbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.reeltimelbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.reeltimelbl.Location = new System.Drawing.Point(639, 22);
+            this.reeltimelbl.Location = new System.Drawing.Point(716, 22);
             this.reeltimelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.reeltimelbl.Name = "reeltimelbl";
             this.reeltimelbl.Size = new System.Drawing.Size(89, 25);
@@ -801,12 +802,22 @@
             this.datelbl.BackColor = System.Drawing.SystemColors.HotTrack;
             this.datelbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.datelbl.ForeColor = System.Drawing.SystemColors.Control;
-            this.datelbl.Location = new System.Drawing.Point(815, 22);
+            this.datelbl.Location = new System.Drawing.Point(858, 22);
             this.datelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.datelbl.Name = "datelbl";
             this.datelbl.Size = new System.Drawing.Size(49, 25);
             this.datelbl.TabIndex = 144;
             this.datelbl.Text = "date";
+            // 
+            // btnqr
+            // 
+            this.btnqr.Location = new System.Drawing.Point(484, 12);
+            this.btnqr.Name = "btnqr";
+            this.btnqr.Size = new System.Drawing.Size(190, 35);
+            this.btnqr.TabIndex = 145;
+            this.btnqr.Text = "Scan your QR Code";
+            this.btnqr.UseVisualStyleBackColor = true;
+            this.btnqr.Click += new System.EventHandler(this.btnqr_Click);
             // 
             // CovidPatientlbl
             // 
@@ -816,6 +827,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1059, 835);
+            this.Controls.Add(this.btnqr);
             this.Controls.Add(this.datelbl);
             this.Controls.Add(this.reeltimelbl);
             this.Controls.Add(this.label27);
@@ -963,5 +975,6 @@
         private System.Windows.Forms.Timer datetimer;
         private Label reeltimelbl;
         private Label datelbl;
+        private Button btnqr;
     }
 }
