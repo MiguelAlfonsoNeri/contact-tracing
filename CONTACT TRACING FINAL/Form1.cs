@@ -86,7 +86,7 @@ namespace CONTACT_TRACING_FINAL
             this.Hide();
             Form3 f3 = new Form3();
             f3.ShowDialog();
-            this.Show();
+          
         }
     }
 }

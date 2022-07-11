@@ -22,3 +22,14 @@ C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contac
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.pdb
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT_TRACING_FINAL.Form2.resources
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT_TRACING_FINAL.Form3.resources
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\AForge.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\AForge.Video.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\zxing.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\zxing.presentation.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\AForge.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\AForge.Video.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\zxing.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\zxing.presentation.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.csproj.CopyComplete
