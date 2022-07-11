@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -44,56 +46,69 @@
             this.q4 = new System.Windows.Forms.Label();
             this.usernamelbl = new System.Windows.Forms.Label();
             this.passlbl = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.Btnadmin = new System.Windows.Forms.Button();
+            this.fntxbx = new System.Windows.Forms.TextBox();
+            this.mntxbx = new System.Windows.Forms.TextBox();
+            this.lntxbx = new System.Windows.Forms.TextBox();
+            this.agetxbx = new System.Windows.Forms.TextBox();
+            this.bdaytxbx = new System.Windows.Forms.TextBox();
+            this.gendertxbx = new System.Windows.Forms.TextBox();
+            this.contactnotxbx = new System.Windows.Forms.TextBox();
+            this.emailtxbx = new System.Windows.Forms.TextBox();
+            this.addresstxbx = new System.Windows.Forms.TextBox();
+            this.q1txbx = new System.Windows.Forms.TextBox();
+            this.q2txbx = new System.Windows.Forms.TextBox();
+            this.q3txbx = new System.Windows.Forms.TextBox();
+            this.q4txbx = new System.Windows.Forms.TextBox();
+            this.usernametxbx = new System.Windows.Forms.TextBox();
+            this.passtxbx = new System.Windows.Forms.TextBox();
+            this.Btnlogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Btnsubmit = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.reeltimelbl = new System.Windows.Forms.Label();
+            this.datelbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(-2, -3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(941, 28);
+            this.button1.Size = new System.Drawing.Size(941, 38);
             this.button1.TabIndex = 0;
             this.button1.Text = "Personal Information";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(-2, 198);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(941, 28);
             this.button2.TabIndex = 1;
             this.button2.Text = "Contact Tracing Questions";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Location = new System.Drawing.Point(-2, 413);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(941, 28);
             this.button3.TabIndex = 2;
             this.button3.Text = "Personnel Only";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // namelbl
             // 
             this.namelbl.AutoSize = true;
+            this.namelbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.namelbl.Location = new System.Drawing.Point(33, 41);
             this.namelbl.Name = "namelbl";
             this.namelbl.Size = new System.Drawing.Size(55, 20);
@@ -103,6 +118,7 @@
             // agelbl
             // 
             this.agelbl.AutoSize = true;
+            this.agelbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.agelbl.Location = new System.Drawing.Point(33, 100);
             this.agelbl.Name = "agelbl";
             this.agelbl.Size = new System.Drawing.Size(42, 20);
@@ -112,6 +128,7 @@
             // bdaylbl
             // 
             this.bdaylbl.AutoSize = true;
+            this.bdaylbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.bdaylbl.Location = new System.Drawing.Point(33, 149);
             this.bdaylbl.Name = "bdaylbl";
             this.bdaylbl.Size = new System.Drawing.Size(71, 20);
@@ -121,6 +138,7 @@
             // genderlbl
             // 
             this.genderlbl.AutoSize = true;
+            this.genderlbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.genderlbl.Location = new System.Drawing.Point(449, 41);
             this.genderlbl.Name = "genderlbl";
             this.genderlbl.Size = new System.Drawing.Size(67, 20);
@@ -130,6 +148,7 @@
             // contctlbl
             // 
             this.contctlbl.AutoSize = true;
+            this.contctlbl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.contctlbl.Location = new System.Drawing.Point(449, 83);
             this.contctlbl.Name = "contctlbl";
             this.contctlbl.Size = new System.Drawing.Size(82, 20);
@@ -208,121 +227,124 @@
             this.passlbl.TabIndex = 15;
             this.passlbl.Text = "Password:";
             // 
-            // textBox1
+            // fntxbx
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 41);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 16;
+            this.fntxbx.Location = new System.Drawing.Point(101, 41);
+            this.fntxbx.Name = "fntxbx";
+            this.fntxbx.Size = new System.Drawing.Size(100, 26);
+            this.fntxbx.TabIndex = 16;
             // 
-            // textBox2
+            // mntxbx
             // 
-            this.textBox2.Location = new System.Drawing.Point(216, 41);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 26);
-            this.textBox2.TabIndex = 17;
+            this.mntxbx.Location = new System.Drawing.Point(216, 41);
+            this.mntxbx.Name = "mntxbx";
+            this.mntxbx.Size = new System.Drawing.Size(100, 26);
+            this.mntxbx.TabIndex = 17;
             // 
-            // textBox3
+            // lntxbx
             // 
-            this.textBox3.Location = new System.Drawing.Point(331, 41);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 26);
-            this.textBox3.TabIndex = 18;
+            this.lntxbx.Location = new System.Drawing.Point(331, 41);
+            this.lntxbx.Name = "lntxbx";
+            this.lntxbx.Size = new System.Drawing.Size(100, 26);
+            this.lntxbx.TabIndex = 18;
             // 
-            // textBox4
+            // agetxbx
             // 
-            this.textBox4.Location = new System.Drawing.Point(101, 94);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 26);
-            this.textBox4.TabIndex = 19;
+            this.agetxbx.Location = new System.Drawing.Point(101, 94);
+            this.agetxbx.Name = "agetxbx";
+            this.agetxbx.Size = new System.Drawing.Size(100, 26);
+            this.agetxbx.TabIndex = 19;
             // 
-            // textBox5
+            // bdaytxbx
             // 
-            this.textBox5.Location = new System.Drawing.Point(101, 149);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 26);
-            this.textBox5.TabIndex = 20;
+            this.bdaytxbx.Location = new System.Drawing.Point(101, 149);
+            this.bdaytxbx.Name = "bdaytxbx";
+            this.bdaytxbx.Size = new System.Drawing.Size(100, 26);
+            this.bdaytxbx.TabIndex = 20;
             // 
-            // textBox6
+            // gendertxbx
             // 
-            this.textBox6.Location = new System.Drawing.Point(528, 41);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 26);
-            this.textBox6.TabIndex = 21;
+            this.gendertxbx.Location = new System.Drawing.Point(528, 41);
+            this.gendertxbx.Name = "gendertxbx";
+            this.gendertxbx.Size = new System.Drawing.Size(100, 26);
+            this.gendertxbx.TabIndex = 21;
             // 
-            // textBox7
+            // contactnotxbx
             // 
-            this.textBox7.Location = new System.Drawing.Point(528, 83);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 26);
-            this.textBox7.TabIndex = 22;
+            this.contactnotxbx.Location = new System.Drawing.Point(528, 83);
+            this.contactnotxbx.Name = "contactnotxbx";
+            this.contactnotxbx.Size = new System.Drawing.Size(100, 26);
+            this.contactnotxbx.TabIndex = 22;
             // 
-            // textBox8
+            // emailtxbx
             // 
-            this.textBox8.Location = new System.Drawing.Point(528, 132);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 26);
-            this.textBox8.TabIndex = 23;
+            this.emailtxbx.Location = new System.Drawing.Point(528, 132);
+            this.emailtxbx.Multiline = true;
+            this.emailtxbx.Name = "emailtxbx";
+            this.emailtxbx.Size = new System.Drawing.Size(100, 26);
+            this.emailtxbx.TabIndex = 23;
             // 
-            // textBox9
+            // addresstxbx
             // 
-            this.textBox9.Location = new System.Drawing.Point(700, 64);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(201, 97);
-            this.textBox9.TabIndex = 24;
+            this.addresstxbx.Location = new System.Drawing.Point(700, 64);
+            this.addresstxbx.Multiline = true;
+            this.addresstxbx.Name = "addresstxbx";
+            this.addresstxbx.Size = new System.Drawing.Size(201, 97);
+            this.addresstxbx.TabIndex = 24;
             // 
-            // textBox10
+            // q1txbx
             // 
-            this.textBox10.Location = new System.Drawing.Point(518, 239);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 26);
-            this.textBox10.TabIndex = 25;
+            this.q1txbx.Location = new System.Drawing.Point(518, 239);
+            this.q1txbx.Name = "q1txbx";
+            this.q1txbx.Size = new System.Drawing.Size(100, 26);
+            this.q1txbx.TabIndex = 25;
             // 
-            // textBox11
+            // q2txbx
             // 
-            this.textBox11.Location = new System.Drawing.Point(436, 293);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 26);
-            this.textBox11.TabIndex = 26;
+            this.q2txbx.Location = new System.Drawing.Point(436, 293);
+            this.q2txbx.Name = "q2txbx";
+            this.q2txbx.Size = new System.Drawing.Size(100, 26);
+            this.q2txbx.TabIndex = 26;
             // 
-            // textBox12
+            // q3txbx
             // 
-            this.textBox12.Location = new System.Drawing.Point(451, 335);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 26);
-            this.textBox12.TabIndex = 27;
+            this.q3txbx.Location = new System.Drawing.Point(451, 335);
+            this.q3txbx.Name = "q3txbx";
+            this.q3txbx.Size = new System.Drawing.Size(100, 26);
+            this.q3txbx.TabIndex = 27;
             // 
-            // textBox13
+            // q4txbx
             // 
-            this.textBox13.Location = new System.Drawing.Point(242, 371);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 26);
-            this.textBox13.TabIndex = 28;
+            this.q4txbx.Location = new System.Drawing.Point(242, 371);
+            this.q4txbx.Name = "q4txbx";
+            this.q4txbx.Size = new System.Drawing.Size(100, 26);
+            this.q4txbx.TabIndex = 28;
             // 
-            // textBox14
+            // usernametxbx
             // 
-            this.textBox14.Location = new System.Drawing.Point(400, 453);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 26);
-            this.textBox14.TabIndex = 29;
+            this.usernametxbx.Location = new System.Drawing.Point(400, 453);
+            this.usernametxbx.Name = "usernametxbx";
+            this.usernametxbx.Size = new System.Drawing.Size(100, 26);
+            this.usernametxbx.TabIndex = 29;
             // 
-            // textBox15
+            // passtxbx
             // 
-            this.textBox15.Location = new System.Drawing.Point(400, 485);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 26);
-            this.textBox15.TabIndex = 30;
+            this.passtxbx.Location = new System.Drawing.Point(400, 485);
+            this.passtxbx.Name = "passtxbx";
+            this.passtxbx.Size = new System.Drawing.Size(100, 26);
+            this.passtxbx.TabIndex = 30;
             // 
-            // Btnadmin
+            // Btnlogin
             // 
-            this.Btnadmin.Location = new System.Drawing.Point(543, 485);
-            this.Btnadmin.Name = "Btnadmin";
-            this.Btnadmin.Size = new System.Drawing.Size(75, 29);
-            this.Btnadmin.TabIndex = 31;
-            this.Btnadmin.Text = "log in";
-            this.Btnadmin.UseVisualStyleBackColor = true;
+            this.Btnlogin.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnlogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Btnlogin.Location = new System.Drawing.Point(543, 479);
+            this.Btnlogin.Name = "Btnlogin";
+            this.Btnlogin.Size = new System.Drawing.Size(116, 35);
+            this.Btnlogin.TabIndex = 31;
+            this.Btnlogin.Text = "log in";
+            this.Btnlogin.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -335,36 +357,66 @@
             // 
             // Btnsubmit
             // 
-            this.Btnsubmit.Location = new System.Drawing.Point(809, 368);
+            this.Btnsubmit.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Btnsubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnsubmit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Btnsubmit.Location = new System.Drawing.Point(743, 357);
             this.Btnsubmit.Name = "Btnsubmit";
-            this.Btnsubmit.Size = new System.Drawing.Size(75, 29);
+            this.Btnsubmit.Size = new System.Drawing.Size(141, 40);
             this.Btnsubmit.TabIndex = 33;
             this.Btnsubmit.Text = "Submit";
-            this.Btnsubmit.UseVisualStyleBackColor = true;
+            this.Btnsubmit.UseVisualStyleBackColor = false;
+            this.Btnsubmit.Click += new System.EventHandler(this.Btnsubmit_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // reeltimelbl
+            // 
+            this.reeltimelbl.AutoSize = true;
+            this.reeltimelbl.Location = new System.Drawing.Point(647, 6);
+            this.reeltimelbl.Name = "reeltimelbl";
+            this.reeltimelbl.Size = new System.Drawing.Size(70, 20);
+            this.reeltimelbl.TabIndex = 34;
+            this.reeltimelbl.Text = "reel-time";
+            // 
+            // datelbl
+            // 
+            this.datelbl.AutoSize = true;
+            this.datelbl.Location = new System.Drawing.Point(799, 6);
+            this.datelbl.Name = "datelbl";
+            this.datelbl.Size = new System.Drawing.Size(41, 20);
+            this.datelbl.TabIndex = 35;
+            this.datelbl.Text = "date";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(938, 526);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(938, 561);
+            this.Controls.Add(this.datelbl);
+            this.Controls.Add(this.reeltimelbl);
             this.Controls.Add(this.Btnsubmit);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Btnadmin);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Btnlogin);
+            this.Controls.Add(this.passtxbx);
+            this.Controls.Add(this.usernametxbx);
+            this.Controls.Add(this.q4txbx);
+            this.Controls.Add(this.q3txbx);
+            this.Controls.Add(this.q2txbx);
+            this.Controls.Add(this.q1txbx);
+            this.Controls.Add(this.addresstxbx);
+            this.Controls.Add(this.emailtxbx);
+            this.Controls.Add(this.contactnotxbx);
+            this.Controls.Add(this.gendertxbx);
+            this.Controls.Add(this.bdaytxbx);
+            this.Controls.Add(this.agetxbx);
+            this.Controls.Add(this.lntxbx);
+            this.Controls.Add(this.mntxbx);
+            this.Controls.Add(this.fntxbx);
             this.Controls.Add(this.passlbl);
             this.Controls.Add(this.usernamelbl);
             this.Controls.Add(this.q4);
@@ -383,6 +435,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "CONTACT TRACING";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -406,24 +459,27 @@
         private System.Windows.Forms.Label q4;
         private System.Windows.Forms.Label usernamelbl;
         private System.Windows.Forms.Label passlbl;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.Button Btnadmin;
+        private System.Windows.Forms.TextBox fntxbx;
+        private System.Windows.Forms.TextBox mntxbx;
+        private System.Windows.Forms.TextBox lntxbx;
+        private System.Windows.Forms.TextBox agetxbx;
+        private System.Windows.Forms.TextBox bdaytxbx;
+        private System.Windows.Forms.TextBox gendertxbx;
+        private System.Windows.Forms.TextBox contactnotxbx;
+        private System.Windows.Forms.TextBox emailtxbx;
+        private System.Windows.Forms.TextBox addresstxbx;
+        private System.Windows.Forms.TextBox q1txbx;
+        private System.Windows.Forms.TextBox q2txbx;
+        private System.Windows.Forms.TextBox q3txbx;
+        private System.Windows.Forms.TextBox q4txbx;
+        private System.Windows.Forms.TextBox usernametxbx;
+        private System.Windows.Forms.TextBox passtxbx;
+        private System.Windows.Forms.Button Btnlogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Btnsubmit;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label reeltimelbl;
+        private System.Windows.Forms.Label datelbl;
     }
 }
 
