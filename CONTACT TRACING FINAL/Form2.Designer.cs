@@ -37,17 +37,17 @@
             // 
             // showtxbx
             // 
-            this.showtxbx.Location = new System.Drawing.Point(65, 43);
+            this.showtxbx.Location = new System.Drawing.Point(65, 45);
             this.showtxbx.Multiline = true;
             this.showtxbx.Name = "showtxbx";
-            this.showtxbx.Size = new System.Drawing.Size(663, 234);
+            this.showtxbx.Size = new System.Drawing.Size(663, 322);
             this.showtxbx.TabIndex = 0;
             // 
             // Showallbtn
             // 
-            this.Showallbtn.Location = new System.Drawing.Point(95, 391);
+            this.Showallbtn.Location = new System.Drawing.Point(65, 383);
             this.Showallbtn.Name = "Showallbtn";
-            this.Showallbtn.Size = new System.Drawing.Size(108, 26);
+            this.Showallbtn.Size = new System.Drawing.Size(108, 38);
             this.Showallbtn.TabIndex = 1;
             this.Showallbtn.Text = "Show All";
             this.Showallbtn.UseVisualStyleBackColor = true;
@@ -55,9 +55,9 @@
             // 
             // searchbtn
             // 
-            this.searchbtn.Location = new System.Drawing.Point(522, 391);
+            this.searchbtn.Location = new System.Drawing.Point(547, 383);
             this.searchbtn.Name = "searchbtn";
-            this.searchbtn.Size = new System.Drawing.Size(75, 27);
+            this.searchbtn.Size = new System.Drawing.Size(75, 38);
             this.searchbtn.TabIndex = 2;
             this.searchbtn.Text = "Search";
             this.searchbtn.UseVisualStyleBackColor = true;
@@ -65,9 +65,9 @@
             // 
             // deletebtn
             // 
-            this.deletebtn.Location = new System.Drawing.Point(653, 391);
+            this.deletebtn.Location = new System.Drawing.Point(653, 383);
             this.deletebtn.Name = "deletebtn";
-            this.deletebtn.Size = new System.Drawing.Size(75, 27);
+            this.deletebtn.Size = new System.Drawing.Size(75, 38);
             this.deletebtn.TabIndex = 3;
             this.deletebtn.Text = "Delete";
             this.deletebtn.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@
             // 
             // dtp
             // 
-            this.dtp.Location = new System.Drawing.Point(262, 391);
+            this.dtp.Location = new System.Drawing.Point(316, 387);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(200, 26);
             this.dtp.TabIndex = 4;
