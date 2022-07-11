@@ -63,5 +63,23 @@ namespace CONTACT_TRACING_FINAL
             reeltimelbl.Text = DateTime.Now.ToLongTimeString();
             datelbl.Text = DateTime.Now.ToLongDateString();
         }
+
+        private void Btnlogin_Click(object sender, EventArgs e)
+        {
+            if (usernametxbx.Text == "admin" && passtxbx.Text == "migo")
+            {
+                this.Hide();
+                Form2 f2 = new Form2();
+                f2.ShowDialog();
+                this.Show();
+
+                usernametxbx.Text = "";
+                passtxbx.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Incorrect Credentials!");
+            }
+        }
     }
 }
