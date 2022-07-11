@@ -55,12 +55,14 @@ namespace CONTACT_TRACING_FINAL
 
         private void timerscanner_Tick(object sender, EventArgs e)
         {
+            timelblf3.Text = DateTime.Now.ToLongTimeString();
+            datelblf3.Text = DateTime.Now.ToLongDateString();
             if (pcbox.Image != null)
             {
                 BarcodeReader barcodeReader = new BarcodeReader();
                 Result result = barcodeReader.Decode((Bitmap)pcbox.Image);
                 if (result != null)
-                {
+                { 
                     qrtxbx.Text = result.ToString();
                     timerscanner.Stop();
                 }
@@ -72,7 +74,8 @@ namespace CONTACT_TRACING_FINAL
             String DATA = qrtxbx.Text;
             if (DATA != "")
             {
-                StreamWriter qrdata = new StreamWriter(@"C:\Users\Migo\OneDrive\Documents\Contact Tracing Responses\contact qr\decode qr.txt", true);
+                StreamWriter qrdata = new StreamWriter(@"C:\Users\Migo\OneDrive\Documents\Contact Tracing Responses\" + datelblf3.Text,
+                                                       true);
                 qrdata.WriteLine(DATA);
                 qrdata.Close();
                 MessageBox.Show("Information decoded!");
