@@ -81,5 +81,12 @@ namespace CONTACT_TRACING_FINAL
                 MessageBox.Show("Incorrect Credentials!");
             }
         }
+        private void Btnscan_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+            this.Show();
+        }
     }
 }

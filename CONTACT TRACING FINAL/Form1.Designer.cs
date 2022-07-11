@@ -77,7 +77,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(-2, -3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(941, 38);
+            this.button1.Size = new System.Drawing.Size(981, 38);
             this.button1.TabIndex = 0;
             this.button1.Text = "Personal Information";
             this.button1.UseVisualStyleBackColor = false;
@@ -377,7 +377,7 @@
             // reeltimelbl
             // 
             this.reeltimelbl.AutoSize = true;
-            this.reeltimelbl.Location = new System.Drawing.Point(782, 6);
+            this.reeltimelbl.Location = new System.Drawing.Point(724, 6);
             this.reeltimelbl.Name = "reeltimelbl";
             this.reeltimelbl.Size = new System.Drawing.Size(70, 20);
             this.reeltimelbl.TabIndex = 34;
@@ -386,7 +386,7 @@
             // datelbl
             // 
             this.datelbl.AutoSize = true;
-            this.datelbl.Location = new System.Drawing.Point(885, 9);
+            this.datelbl.Location = new System.Drawing.Point(809, 6);
             this.datelbl.Name = "datelbl";
             this.datelbl.Size = new System.Drawing.Size(41, 20);
             this.datelbl.TabIndex = 35;
@@ -395,15 +395,15 @@
             // Btnscan
             // 
             this.Btnscan.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btnscan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btnscan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnscan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btnscan.Location = new System.Drawing.Point(580, -3);
+            this.Btnscan.Location = new System.Drawing.Point(580, 0);
             this.Btnscan.Name = "Btnscan";
-            this.Btnscan.Size = new System.Drawing.Size(163, 32);
+            this.Btnscan.Size = new System.Drawing.Size(138, 32);
             this.Btnscan.TabIndex = 36;
             this.Btnscan.Text = "Scan QR code";
             this.Btnscan.UseVisualStyleBackColor = false;
+            this.Btnscan.Click += new System.EventHandler(this.Btnscan_Click_1);
             // 
             // Form1
             // 
@@ -411,7 +411,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(938, 561);
+            this.ClientSize = new System.Drawing.Size(977, 561);
             this.Controls.Add(this.Btnscan);
             this.Controls.Add(this.datelbl);
             this.Controls.Add(this.reeltimelbl);
