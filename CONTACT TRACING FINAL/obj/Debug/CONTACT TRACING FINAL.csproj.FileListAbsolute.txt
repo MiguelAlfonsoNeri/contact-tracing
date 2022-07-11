@@ -9,3 +9,14 @@ C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\CONTAC
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\CONTACT TRACING FINAL\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.csproj.CoreCompileInputs.cache
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\CONTACT TRACING FINAL\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.exe
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\CONTACT TRACING FINAL\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.pdb
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\CONTACT TRACING FINAL.exe.config
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\CONTACT TRACING FINAL.exe
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\bin\Debug\CONTACT TRACING FINAL.pdb
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.csproj.AssemblyReference.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.csproj.SuggestedBindingRedirects.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT_TRACING_FINAL.Form1.resources
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT_TRACING_FINAL.Properties.Resources.resources
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.csproj.GenerateResource.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.csproj.CoreCompileInputs.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.exe
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.pdb
