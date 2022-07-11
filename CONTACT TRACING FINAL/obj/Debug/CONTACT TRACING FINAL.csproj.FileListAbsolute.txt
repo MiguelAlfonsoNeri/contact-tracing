@@ -20,3 +20,4 @@ C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contac
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.csproj.CoreCompileInputs.cache
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.exe
 C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT TRACING FINAL.pdb
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Contact-Tracing-Project\CONTACT TRACING FINAL\obj\Debug\CONTACT_TRACING_FINAL.Form2.resources
