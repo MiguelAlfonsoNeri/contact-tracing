@@ -67,6 +67,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.reeltimelbl = new System.Windows.Forms.Label();
             this.datelbl = new System.Windows.Forms.Label();
+            this.Btnscan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -376,7 +377,7 @@
             // reeltimelbl
             // 
             this.reeltimelbl.AutoSize = true;
-            this.reeltimelbl.Location = new System.Drawing.Point(647, 6);
+            this.reeltimelbl.Location = new System.Drawing.Point(782, 6);
             this.reeltimelbl.Name = "reeltimelbl";
             this.reeltimelbl.Size = new System.Drawing.Size(70, 20);
             this.reeltimelbl.TabIndex = 34;
@@ -385,11 +386,24 @@
             // datelbl
             // 
             this.datelbl.AutoSize = true;
-            this.datelbl.Location = new System.Drawing.Point(799, 6);
+            this.datelbl.Location = new System.Drawing.Point(885, 9);
             this.datelbl.Name = "datelbl";
             this.datelbl.Size = new System.Drawing.Size(41, 20);
             this.datelbl.TabIndex = 35;
             this.datelbl.Text = "date";
+            // 
+            // Btnscan
+            // 
+            this.Btnscan.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Btnscan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btnscan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnscan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Btnscan.Location = new System.Drawing.Point(580, -3);
+            this.Btnscan.Name = "Btnscan";
+            this.Btnscan.Size = new System.Drawing.Size(163, 32);
+            this.Btnscan.TabIndex = 36;
+            this.Btnscan.Text = "Scan QR code";
+            this.Btnscan.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -398,6 +412,7 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(938, 561);
+            this.Controls.Add(this.Btnscan);
             this.Controls.Add(this.datelbl);
             this.Controls.Add(this.reeltimelbl);
             this.Controls.Add(this.Btnsubmit);
@@ -481,6 +496,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label reeltimelbl;
         private System.Windows.Forms.Label datelbl;
+        private System.Windows.Forms.Button Btnscan;
     }
 }
 
