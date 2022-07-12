@@ -44,8 +44,9 @@
             // 
             // cmb
             // 
+            this.cmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb.FormattingEnabled = true;
-            this.cmb.Location = new System.Drawing.Point(94, 36);
+            this.cmb.Location = new System.Drawing.Point(105, 9);
             this.cmb.Name = "cmb";
             this.cmb.Size = new System.Drawing.Size(473, 28);
             this.cmb.TabIndex = 0;
@@ -55,7 +56,7 @@
             this.qrtxbx.Location = new System.Drawing.Point(623, 92);
             this.qrtxbx.Multiline = true;
             this.qrtxbx.Name = "qrtxbx";
-            this.qrtxbx.Size = new System.Drawing.Size(289, 422);
+            this.qrtxbx.Size = new System.Drawing.Size(276, 422);
             this.qrtxbx.TabIndex = 1;
             // 
             // Btnstart
@@ -65,9 +66,9 @@
             this.Btnstart.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Btnstart.Location = new System.Drawing.Point(623, 36);
             this.Btnstart.Name = "Btnstart";
-            this.Btnstart.Size = new System.Drawing.Size(75, 44);
+            this.Btnstart.Size = new System.Drawing.Size(158, 44);
             this.Btnstart.TabIndex = 2;
-            this.Btnstart.Text = "Start";
+            this.Btnstart.Text = "Start scanning";
             this.Btnstart.UseVisualStyleBackColor = false;
             this.Btnstart.Click += new System.EventHandler(this.Btnstart_Click);
             // 
@@ -76,11 +77,11 @@
             this.Btnread.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Btnread.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnread.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btnread.Location = new System.Drawing.Point(713, 36);
+            this.Btnread.Location = new System.Drawing.Point(811, 36);
             this.Btnread.Name = "Btnread";
-            this.Btnread.Size = new System.Drawing.Size(75, 44);
+            this.Btnread.Size = new System.Drawing.Size(88, 44);
             this.Btnread.TabIndex = 3;
-            this.Btnread.Text = "Read";
+            this.Btnread.Text = "Submit";
             this.Btnread.UseVisualStyleBackColor = false;
             this.Btnread.Click += new System.EventHandler(this.Btnread_Click);
             // 
@@ -88,7 +89,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label1.Location = new System.Drawing.Point(23, 36);
+            this.label1.Location = new System.Drawing.Point(23, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 20);
             this.label1.TabIndex = 4;
@@ -96,9 +97,10 @@
             // 
             // pcbox
             // 
-            this.pcbox.Location = new System.Drawing.Point(27, 92);
+            this.pcbox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pcbox.Location = new System.Drawing.Point(12, 43);
             this.pcbox.Name = "pcbox";
-            this.pcbox.Size = new System.Drawing.Size(568, 422);
+            this.pcbox.Size = new System.Drawing.Size(595, 471);
             this.pcbox.TabIndex = 5;
             this.pcbox.TabStop = false;
             // 
@@ -131,7 +133,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(938, 561);
+            this.ClientSize = new System.Drawing.Size(918, 561);
             this.Controls.Add(this.datelblf3);
             this.Controls.Add(this.timelblf3);
             this.Controls.Add(this.pcbox);
@@ -141,7 +143,8 @@
             this.Controls.Add(this.qrtxbx);
             this.Controls.Add(this.cmb);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "QR Code Scanner";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbox)).EndInit();

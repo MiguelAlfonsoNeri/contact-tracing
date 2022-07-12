@@ -40,6 +40,8 @@ namespace CONTACT_TRACING_FINAL
             file.Close();
 
             fntxbx.Text = "";
+            contactnotxbx.Text = "";
+            addresstxbx.Text = "";
             mntxbx.Text = "";
             lntxbx.Text = "";
             agetxbx.Text = "";

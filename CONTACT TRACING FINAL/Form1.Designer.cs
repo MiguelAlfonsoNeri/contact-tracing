@@ -73,37 +73,40 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(-2, -3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(981, 38);
             this.button1.TabIndex = 0;
             this.button1.Text = "Personal Information";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(-2, 198);
+            this.button2.Location = new System.Drawing.Point(-9, 198);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(941, 35);
+            this.button2.Size = new System.Drawing.Size(988, 35);
             this.button2.TabIndex = 1;
             this.button2.Text = "Contact Tracing Questions";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Location = new System.Drawing.Point(-2, 413);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(941, 34);
+            this.button3.Size = new System.Drawing.Size(981, 34);
             this.button3.TabIndex = 2;
             this.button3.Text = "Personnel Only";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             // 
             // namelbl
@@ -195,7 +198,7 @@
             // q3
             // 
             this.q3.AutoSize = true;
-            this.q3.Location = new System.Drawing.Point(48, 335);
+            this.q3.Location = new System.Drawing.Point(43, 335);
             this.q3.Name = "q3";
             this.q3.Size = new System.Drawing.Size(397, 20);
             this.q3.TabIndex = 12;
@@ -204,7 +207,7 @@
             // q4
             // 
             this.q4.AutoSize = true;
-            this.q4.Location = new System.Drawing.Point(48, 371);
+            this.q4.Location = new System.Drawing.Point(43, 367);
             this.q4.Name = "q4";
             this.q4.Size = new System.Drawing.Size(188, 20);
             this.q4.TabIndex = 13;
@@ -213,7 +216,7 @@
             // usernamelbl
             // 
             this.usernamelbl.AutoSize = true;
-            this.usernamelbl.Location = new System.Drawing.Point(307, 453);
+            this.usernamelbl.Location = new System.Drawing.Point(343, 462);
             this.usernamelbl.Name = "usernamelbl";
             this.usernamelbl.Size = new System.Drawing.Size(87, 20);
             this.usernamelbl.TabIndex = 14;
@@ -222,7 +225,7 @@
             // passlbl
             // 
             this.passlbl.AutoSize = true;
-            this.passlbl.Location = new System.Drawing.Point(307, 485);
+            this.passlbl.Location = new System.Drawing.Point(343, 494);
             this.passlbl.Name = "passlbl";
             this.passlbl.Size = new System.Drawing.Size(82, 20);
             this.passlbl.TabIndex = 15;
@@ -316,33 +319,34 @@
             // 
             // q4txbx
             // 
-            this.q4txbx.Location = new System.Drawing.Point(242, 371);
+            this.q4txbx.Location = new System.Drawing.Point(237, 364);
             this.q4txbx.Name = "q4txbx";
             this.q4txbx.Size = new System.Drawing.Size(100, 26);
             this.q4txbx.TabIndex = 28;
             // 
             // usernametxbx
             // 
-            this.usernametxbx.Location = new System.Drawing.Point(400, 453);
+            this.usernametxbx.Location = new System.Drawing.Point(431, 456);
             this.usernametxbx.Name = "usernametxbx";
             this.usernametxbx.Size = new System.Drawing.Size(100, 26);
             this.usernametxbx.TabIndex = 29;
             // 
             // passtxbx
             // 
-            this.passtxbx.Location = new System.Drawing.Point(400, 485);
+            this.passtxbx.Location = new System.Drawing.Point(431, 488);
             this.passtxbx.Name = "passtxbx";
             this.passtxbx.Size = new System.Drawing.Size(100, 26);
             this.passtxbx.TabIndex = 30;
+            this.passtxbx.UseSystemPasswordChar = true;
             // 
             // Btnlogin
             // 
             this.Btnlogin.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnlogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btnlogin.Location = new System.Drawing.Point(543, 479);
+            this.Btnlogin.Location = new System.Drawing.Point(430, 520);
             this.Btnlogin.Name = "Btnlogin";
-            this.Btnlogin.Size = new System.Drawing.Size(116, 35);
+            this.Btnlogin.Size = new System.Drawing.Size(101, 35);
             this.Btnlogin.TabIndex = 31;
             this.Btnlogin.Text = "log in";
             this.Btnlogin.UseVisualStyleBackColor = false;
@@ -362,9 +366,9 @@
             this.Btnsubmit.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Btnsubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnsubmit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btnsubmit.Location = new System.Drawing.Point(743, 357);
+            this.Btnsubmit.Location = new System.Drawing.Point(798, 357);
             this.Btnsubmit.Name = "Btnsubmit";
-            this.Btnsubmit.Size = new System.Drawing.Size(141, 40);
+            this.Btnsubmit.Size = new System.Drawing.Size(117, 40);
             this.Btnsubmit.TabIndex = 33;
             this.Btnsubmit.Text = "Submit";
             this.Btnsubmit.UseVisualStyleBackColor = false;
@@ -450,6 +454,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CONTACT TRACING";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

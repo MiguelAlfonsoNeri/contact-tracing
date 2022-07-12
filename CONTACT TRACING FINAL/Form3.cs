@@ -78,7 +78,7 @@ namespace CONTACT_TRACING_FINAL
                                                        true);
                 qrdata.WriteLine(DATA);
                 qrdata.Close();
-                MessageBox.Show("Information decoded!");
+                MessageBox.Show("Information Recorded!");
                 Application.Exit();
             }
             else
